@@ -1,6 +1,4 @@
-
 import { Button } from '@/components/ui/button';
-
 const Hero = () => {
   return <div className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden">
       {/* Background Element */}
@@ -12,7 +10,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 opacity-0 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Embrace Your <span className="heading-gradient">Menopause</span> Journey With Confidence
+              Embrace Your <span className="heading-gradient text-rose-500 text-[ffoo80]">Menopause</span> Journey With Confidence
             </h1>
             <p className="text-lg text-gray-700 max-w-lg">
               Expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life.
@@ -33,12 +31,7 @@ const Hero = () => {
 
           <div className="relative opacity-0 animate-fade-in animate-delay-200">
             <div className="relative z-10 bg-white p-3 rounded-2xl shadow-xl">
-              <iframe 
-                className="w-full aspect-video rounded-xl"
-                src="https://www.youtube.com/embed/eZdaMN0Kje8?si=SLYbt7FYX0_T7sZf" 
-                title="The Periproffesional Introduction" 
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                allowFullScreen>
+              <iframe className="w-full aspect-video rounded-xl" src="https://www.youtube.com/embed/eZdaMN0Kje8?si=SLYbt7FYX0_T7sZf" title="The Periproffesional Introduction" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
               </iframe>
             </div>
             {/* Decorative elements */}
