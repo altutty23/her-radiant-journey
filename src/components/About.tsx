@@ -21,8 +21,8 @@ const About = () => {
           <div className="relative opacity-0 animate-fade-in animate-delay-100">
             <div className="relative z-10">
               <img
-                src="https://images.unsplash.com/photo-1551022372-0bdac482b9d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                alt="Professional women's health coach"
+                src="/lovable-uploads/ac960691-b81e-46d6-b9cd-e6145d0da972.png"
+                alt="The Periproffesional"
                 className="w-full h-auto rounded-2xl shadow-lg"
               />
             </div>
@@ -33,10 +33,7 @@ const About = () => {
           <div className="space-y-6 opacity-0 animate-fade-in animate-delay-200">
             <h3 className="text-2xl font-bold text-gray-800">Meet Your Health Coach</h3>
             <p className="text-gray-700">
-              With over 15 years of experience in women's health, I'm passionate about helping women navigate the transformative journey of menopause with confidence and grace.
-            </p>
-            <p className="text-gray-700">
-              My approach combines evidence-based strategies with holistic wellness principles to address the physical, emotional, and lifestyle aspects of menopause.
+              "The Mrs. Maisel of menopause!" I'm a certified perimenopause educator who blends science and humor. Are you over 40 and haven't felt like yourself lately? Stick around and learn why the biology of perimenopause may be making you feel like crap.
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-4">
