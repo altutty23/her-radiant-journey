@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white py-16 md:py-24">
+  return <section id="about" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -20,11 +17,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative opacity-0 animate-fade-in animate-delay-100">
             <div className="relative z-10">
-              <img
-                src="/lovable-uploads/ac960691-b81e-46d6-b9cd-e6145d0da972.png"
-                alt="The Periproffesional"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <img src="/lovable-uploads/ac960691-b81e-46d6-b9cd-e6145d0da972.png" alt="The Periproffesional" className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
             {/* Decorative elements */}
             <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 w-16 h-64 rounded-full bg-gradient-to-b from-peri-pink to-peri-magenta -z-10"></div>
@@ -40,26 +33,20 @@ const About = () => {
               <Card className="bg-peri-lightpink border-none">
                 <CardContent className="pt-6">
                   <h4 className="font-bold text-peri-magenta mb-2">Certified Expert</h4>
-                  <p className="text-sm text-gray-700">
-                    Advanced certifications in hormonal health and menopause management
-                  </p>
+                  <p className="text-sm text-gray-700">Advanced certifications in  menopause management and womens's health. </p>
                 </CardContent>
               </Card>
               
               <Card className="bg-peri-lightpink border-none">
                 <CardContent className="pt-6">
-                  <h4 className="font-bold text-peri-magenta mb-2">Personalized Plans</h4>
-                  <p className="text-sm text-gray-700">
-                    Customized solutions tailored to your unique symptoms and lifestyle
-                  </p>
+                  <h4 className="font-bold text-peri-magenta mb-2">No Crap Knowledge</h4>
+                  <p className="text-sm text-gray-700">We provide knowledge without the fluff. All the info you need in one place.</p>
                 </CardContent>
               </Card>
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
