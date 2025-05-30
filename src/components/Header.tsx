@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
+
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -64,8 +65,8 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <span className="font-bold text-2xl text-black">The </span>
-              <span className="font-bold text-2xl text-[#e60073]">‎ Periprofessional</span>
+              <span className="font-bold text-2xl text-[#e60073]">The Peri</span>
+              <span className="font-bold text-2xl text-black">professional</span>
             </Link>
           </div>
 
@@ -121,4 +122,5 @@ const Header = () => {
         </div>}
     </header>;
 };
+
 export default Header;
