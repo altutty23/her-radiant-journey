@@ -1,14 +1,31 @@
+
 const Footer = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return <footer className="bg-gray-800 text-white py-12">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="text-left">
             <h4 className="font-bold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-300 hover:text-peri-pink transition-colors">Home</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-peri-pink transition-colors">About</a></li>
-              <li><a href="#get-started" className="text-gray-300 hover:text-peri-pink transition-colors">Get Started</a></li>
-              <li><a href="#contact" className="text-gray-300 hover:text-peri-pink transition-colors">Contact</a></li>
+              <li><button onClick={scrollToTop} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Home</button></li>
+              <li><button onClick={() => scrollToSection('perimenopause')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Perimenopause, huh?</button></li>
+              <li><button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">About</button></li>
+              <li><button onClick={() => scrollToSection('get-started')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Get Started</button></li>
             </ul>
           </div>
           
