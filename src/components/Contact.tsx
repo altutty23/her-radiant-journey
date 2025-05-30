@@ -1,30 +1,26 @@
-
 import { Mail, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
-  const { toast } = useToast();
-
+  const {
+    toast
+  } = useToast();
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log("Email submitted:", email);
     toast({
       title: "Email submitted!",
-      description: "Thank you for subscribing. We'll keep you updated.",
+      description: "Thank you for subscribing. We'll keep you updated."
     });
     setEmail("");
   };
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
-
-  return (
-    <section id="contact" className="bg-white py-16 md:py-24">
+  return <section id="contact" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -41,7 +37,7 @@ const Contact = () => {
           {/* Contact Info */}
           <div className="opacity-0 animate-fade-in animate-delay-100">
             <div className="bg-peri-lightpink p-8 rounded-2xl h-full flex flex-col">
-              <h3 className="text-2xl font-bold mb-6 text-gray-800">Get in Touch</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-800">Learn More</h3>
               <div className="space-y-6 flex-grow">
                 <div className="flex items-start">
                   <div className="bg-white p-2 rounded-full mr-4">
@@ -102,22 +98,10 @@ const Contact = () => {
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                       Email Address
                     </label>
-                    <Input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={email}
-                      onChange={handleChange}
-                      required
-                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]"
-                      placeholder="your.email@example.com"
-                    />
+                    <Input type="email" id="email" name="email" value={email} onChange={handleChange} required className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="your.email@example.com" />
                   </div>
                   
-                  <Button
-                    type="submit"
-                    className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors"
-                  >
+                  <Button type="submit" className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors">
                     Subscribe
                   </Button>
                 </form>
@@ -126,8 +110,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
