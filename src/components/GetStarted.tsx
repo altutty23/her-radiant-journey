@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Calendar, Mail } from "lucide-react";
+import { ArrowRight, Calendar, Mail, Gift } from "lucide-react";
 
 const GetStarted = () => {
   return (
@@ -18,7 +18,8 @@ const GetStarted = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* 1:1 Appointments */}
           <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-100">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
@@ -48,12 +49,50 @@ const GetStarted = () => {
                   No long-term commitment
                 </li>
               </ul>
+            </CardContent>
+          </Card>
+
+          {/* Free Subscription */}
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-150 bg-gradient-to-br from-white to-peri-lightpink">
+            <CardHeader className="text-center pb-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
+                <Gift className="h-6 w-6 text-white" />
+              </div>
+              <CardTitle className="text-xl font-bold text-gray-800">Free Subscription</CardTitle>
+              <CardDescription className="text-gray-600">
+                Access to Substack and weekly newsletters
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <ul className="space-y-2 text-sm text-gray-700">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Weekly newsletter delivery
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Access to Substack content
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Exclusive bonus content
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  No payment required
+                </li>
+              </ul>
+              <div className="text-center">
+                <p className="text-2xl font-bold text-[#e60073] mb-2">Free</p>
+                <p className="text-sm text-gray-600 mb-4">Always free access</p>
+              </div>
               <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
-                Schedule Now
+                Subscribe Free
               </Button>
             </CardContent>
           </Card>
 
+          {/* Paid Subscription */}
           <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-200">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
@@ -87,14 +126,21 @@ const GetStarted = () => {
                 <p className="text-2xl font-bold text-[#e60073] mb-2">$7/month</p>
                 <p className="text-sm text-gray-600 mb-4">or $75 annually</p>
               </div>
-              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
-                Subscribe Now
-              </Button>
             </CardContent>
           </Card>
         </div>
 
-        <div className="text-center mt-12 opacity-0 animate-fade-in animate-delay-300">
+        {/* Buttons Row */}
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-12 max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-300">
+          <Button className="w-full md:w-auto bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
+            Schedule Now
+          </Button>
+          <Button className="w-full md:w-auto bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
+            Subscribe Now
+          </Button>
+        </div>
+
+        <div className="text-center mt-8 opacity-0 animate-fade-in animate-delay-400">
           <p className="text-gray-600 mb-4">
             Not sure which option is right for you?
           </p>
