@@ -30,9 +30,7 @@ const About = () => {
               In October 2019, at 49, I walked into my annual doctor's appointment and said, "I'm not feeling like myself." I had all sorts of weird symptoms, but I couldn't pinpoint what they were related to or why they were happening.
             </p>
 
-            <p className="text-gray-700">
-              The Periproffesional website and newsletter are written by a certified menopause educator and are filled with valuable, applicable health and wellness information. No boring lectures or complicated terms here!
-            </p>
+            <p className="text-gray-700">The Periprofessional website and newsletter are written by me, a certified menopause educator. They are filled with valuable, applicable health and wellness information. No boring lectures or complicated terms here!</p>
           </div>
         </div>
 
