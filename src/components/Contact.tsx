@@ -26,7 +26,7 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
-      const response = await fetch("https://hook.us2.make.com/vj6zleti89cwgeyq396eaopyafsda9wa", {
+      const response = await fetch("https://hook.us2.make.com/egweuwfbek8n0h5cden8snkvmdrf5igb", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
