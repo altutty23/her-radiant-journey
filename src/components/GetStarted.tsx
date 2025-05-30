@@ -1,11 +1,8 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ArrowRight, Calendar, Mail, Gift } from "lucide-react";
-
 const GetStarted = () => {
-  return (
-    <section id="get-started" className="bg-gradient-to-br from-peri-lightpink to-white py-16 md:py-24">
+  return <section id="get-started" className="bg-gradient-to-br from-peri-lightpink to-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4">
@@ -25,7 +22,7 @@ const GetStarted = () => {
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
                 <Calendar className="h-6 w-6 text-white" />
               </div>
-              <CardTitle className="text-xl font-bold text-gray-800">1:1 Appointments</CardTitle>
+              <CardTitle className="text-xl font-bold text-gray-800">Appointments</CardTitle>
               <CardDescription className="text-gray-600">
                 Personal support with a certified perimenopause educator
               </CardDescription>
@@ -153,8 +150,6 @@ const GetStarted = () => {
           </a>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default GetStarted;
