@@ -1,5 +1,6 @@
 
 import { Button } from '@/components/ui/button';
+import { ChevronDown } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -42,6 +43,11 @@ const Hero = () => {
             <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-peri-magenta/20 rounded-full -z-10"></div>
           </div>
         </div>
+      </div>
+      
+      {/* Bottom Arrow */}
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 opacity-0 animate-fade-in animate-delay-400">
+        <ChevronDown className="h-8 w-8 text-[#e60073] animate-bounce" />
       </div>
     </div>
   );
