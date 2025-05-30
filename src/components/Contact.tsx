@@ -1,4 +1,3 @@
-
 import { Mail, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -27,17 +26,23 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
-      // Create form data for the mailhook with correct field names
-      const formData = new FormData();
-      formData.append('subject', email); // Set subject to the submitted email
-      formData.append('text', `New subscription from: ${email}\nTimestamp: ${new Date().toISOString()}\nSource: website_contact_form`);
-      formData.append('sender', email);
-      formData.append('recipients', '3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com');
+      // Send as JSON payload instead of FormData
+      const payload = {
+        subject: email,
+        text: `New subscription from: ${email}\nTimestamp: ${new Date().toISOString()}\nSource: website_contact_form`,
+        sender: email,
+        recipients: "3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com"
+      };
+
+      console.log("Sending payload:", payload);
 
       const response = await fetch("https://hook.us2.make.com/3w8c2iticdtq45ht1d0tmdao65v5ekbd", {
         method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
         mode: "no-cors",
-        body: formData,
+        body: JSON.stringify(payload),
       });
 
       toast({
@@ -119,7 +124,7 @@ const Contact = () => {
                   <a href="https://www.instagram.com/theperiprofessional" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                      <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                      <path d="M16 11.37A4 4 0 11 12.63 8 4 4 0 0 1 16 11.37z"></path>
                       <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
                     </svg>
                   </a>
