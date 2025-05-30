@@ -66,7 +66,7 @@ const About = () => {
         <div className="mb-16 opacity-0 animate-fade-in animate-delay-400">
           <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">My Qualifications</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="bg-white border-none shadow-md">
+            <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl">
               <CardContent className="pt-6">
                 <h4 className="font-bold text-[#e60073] mb-3">Education & Certification</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
@@ -78,7 +78,7 @@ const About = () => {
               </CardContent>
             </Card>
             
-            <Card className="bg-white border-none shadow-md">
+            <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl">
               <CardContent className="pt-6">
                 <h4 className="font-bold text-[#e60073] mb-3">Professional Memberships</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
