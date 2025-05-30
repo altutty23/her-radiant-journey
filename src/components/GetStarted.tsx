@@ -49,11 +49,14 @@ const GetStarted = () => {
                   No long-term commitment
                 </li>
               </ul>
+              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full mt-6">
+                Schedule Now
+              </Button>
             </CardContent>
           </Card>
 
           {/* Free Subscription */}
-          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-150 bg-gradient-to-br from-white to-peri-lightpink">
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-150">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
                 <Gift className="h-6 w-6 text-white" />
@@ -126,18 +129,11 @@ const GetStarted = () => {
                 <p className="text-2xl font-bold text-[#e60073] mb-2">$7/month</p>
                 <p className="text-sm text-gray-600 mb-4">or $75 annually</p>
               </div>
+              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
+                Subscribe Now
+              </Button>
             </CardContent>
           </Card>
-        </div>
-
-        {/* Buttons Row */}
-        <div className="flex flex-col md:flex-row gap-4 justify-center items-center mt-12 max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-300">
-          <Button className="w-full md:w-auto bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
-            Schedule Now
-          </Button>
-          <Button className="w-full md:w-auto bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
-            Subscribe Now
-          </Button>
         </div>
 
         <div className="text-center mt-8 opacity-0 animate-fade-in animate-delay-400">
