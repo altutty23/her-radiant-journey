@@ -23,7 +23,7 @@ const About = () => {
           </div>
 
           <div className="space-y-6 opacity-0 animate-fade-in animate-delay-200">
-            <h3 className="text-2xl font-bold text-gray-800">Meet Shelby, The Periprofessional</h3>
+            <h3 className="text-2xl font-bold text-gray-800">Meet Shelby Tutty, The Periprofessional</h3>
             <p className="text-gray-700">
               "The Mrs. Maisel of menopause!" I'm a certified perimenopause educator who blends science and humor. Are you over 40 and haven't felt like yourself lately? Stick around and learn why the biology of perimenopause may be making you feel like crap.
             </p>
@@ -44,7 +44,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
               <BookOpen className="h-8 w-8 text-[#e60073] mx-auto mb-3" />
-              <h4 className="font-bold text-gray-800 mb-2">Evidence-Based Content</h4>
+              <h4 className="font-bold text-gray-800 mb-2">Science Backed Content</h4>
               <p className="text-sm text-gray-700">Written personally by me using science with sources included as needed.</p>
             </div>
             <div className="text-center">
