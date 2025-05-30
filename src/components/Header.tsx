@@ -72,15 +72,12 @@ const Header = () => {
             <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               About
             </button>
-            <button onClick={() => scrollToSection('get-started')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
-              Get Started
-            </button>
             <button onClick={handleBlogClick} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               Blog
             </button>
-            <button onClick={() => scrollToSection('contact')}>
+            <button onClick={() => scrollToSection('get-started')}>
               <Button className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f]">
-                Contact
+                Get Started
               </Button>
             </button>
           </nav>
@@ -107,14 +104,11 @@ const Header = () => {
             <button onClick={() => scrollToSection('about')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               About
             </button>
-            <button onClick={() => scrollToSection('get-started')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
-              Get Started
-            </button>
             <button onClick={handleBlogClick} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               Blog
             </button>
-            <button onClick={() => scrollToSection('contact')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
-              Contact
+            <button onClick={() => scrollToSection('get-started')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
+              Get Started
             </button>
           </div>
         </div>
