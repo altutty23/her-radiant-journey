@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 opacity-0 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Embrace Your <span className="heading-gradient text-[ffoo80] text-[#e60073]">Menopause</span> Journey With Confidence
+              Embrace Your <span className="heading-gradient text-[ffoo80] text-[#e60073]">Perimenopause</span> Journey With Confidence
             </h1>
             <p className="text-lg text-gray-700 max-w-lg">
               Expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life.
