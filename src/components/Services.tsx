@@ -36,10 +36,10 @@ const Services = () => {
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
-            <List className="h-5 w-5 text-peri-magenta" />
+            <List className="h-5 w-5 text-[#e60073]" />
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Services & Programs</h2>
-          <div className="w-24 h-1 bg-peri-magenta rounded mb-6"></div>
+          <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
           <p className="max-w-2xl text-gray-700 text-lg">
             Specialized offerings designed to support your unique menopause journey and help you thrive.
           </p>
@@ -48,12 +48,12 @@ const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {ServicesData.map((service, index) => (
             <Card key={index} className={`overflow-hidden border-none shadow-md transition-all duration-200 hover:shadow-lg ${
-              service.popular ? 'ring-2 ring-peri-magenta' : ''
+              service.popular ? 'ring-2 ring-[#e60073]' : ''
             } opacity-0 animate-fade-in`} style={{ animationDelay: `${index * 100 + 100}ms` }}>
               <CardHeader className="pb-4">
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-xl font-bold text-gray-800">{service.title}</CardTitle>
-                  {service.popular && <Badge className="bg-peri-magenta">Popular</Badge>}
+                  {service.popular && <Badge className="bg-[#e60073]">Popular</Badge>}
                 </div>
                 <CardDescription className="text-gray-600">{service.description}</CardDescription>
               </CardHeader>
@@ -61,7 +61,7 @@ const Services = () => {
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-sm">
-                      <span className="w-2 h-2 bg-peri-magenta rounded-full mr-2"></span>
+                      <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
                       {feature}
                     </li>
                   ))}

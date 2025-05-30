@@ -50,15 +50,15 @@
   }
   
   .heading-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-peri-magenta to-peri-purple;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#e60073] to-peri-purple;
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-peri-magenta to-peri-purple text-white rounded-full px-8 py-3 font-medium transition-all hover:shadow-lg hover:scale-[1.02];
+    @apply bg-gradient-to-r from-[#e60073] to-[#e60073] text-white rounded-full px-8 py-3 font-medium transition-all hover:shadow-lg hover:scale-[1.02];
   }
   
   .btn-secondary {
-    @apply border-2 border-peri-magenta text-peri-magenta rounded-full px-8 py-3 font-medium transition-all hover:bg-peri-pink/10;
+    @apply border-2 border-[#e60073] text-[#e60073] rounded-full px-8 py-3 font-medium transition-all hover:bg-[#e60073]/10;
   }
   
   .hero-gradient {
