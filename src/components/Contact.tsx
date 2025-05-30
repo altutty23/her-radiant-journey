@@ -75,9 +75,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a href="https://www.threads.com/@theperiprofessional" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M2 3h6l2 13h7l-2-13h3M7 14h10"></path>
-                    </svg>
+                    <img src="/lovable-uploads/d12360bb-b7e7-4613-a6be-9f4483edbfc4.png" alt="Threads" className="w-6 h-6" style={{filter: 'brightness(0) saturate(100%) invert(10%) sepia(95%) saturate(5742%) hue-rotate(326deg) brightness(95%) contrast(118%)'}} />
                   </a>
                 </div>
               </div>
