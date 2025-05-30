@@ -1,56 +1,71 @@
+
 import { Mail, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
-  const [email, setEmail] = useState("");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    message: ""
+  });
   const [isLoading, setIsLoading] = useState(false);
-  const {
-    toast
-  } = useToast();
+  const { toast } = useToast();
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email) {
+    if (!formData.name || !formData.email || !formData.message) {
       toast({
         title: "Error",
-        description: "Please enter your email address",
+        description: "Please fill in all fields",
         variant: "destructive"
       });
       return;
     }
+    
     setIsLoading(true);
-    console.log("Submitting email to webhook:", email);
+    console.log("Submitting contact form:", formData);
+    
     try {
-      console.log("Sending email:", email);
       const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
         headers: {
-          "Content-Type": "text/plain"
+          "Content-Type": "application/json"
         },
         mode: "no-cors",
-        body: email
+        body: JSON.stringify(formData)
       });
+      
       toast({
-        title: "Email submitted!",
-        description: "Thank you for subscribing. We'll keep you updated."
+        title: "Message sent!",
+        description: "Thank you for your message. We'll get back to you soon."
       });
-      setEmail("");
+      
+      setFormData({ name: "", email: "", message: "" });
     } catch (error) {
-      console.error("Error submitting email:", error);
+      console.error("Error submitting form:", error);
       toast({
         title: "Error",
-        description: "Failed to submit email. Please try again.",
+        description: "Failed to send message. Please try again.",
         variant: "destructive"
       });
     } finally {
       setIsLoading(false);
     }
   };
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setEmail(e.target.value);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData(prev => ({
+      ...prev,
+      [name]: value
+    }));
   };
+
   return (
     <section id="contact" className="bg-white py-8 md:py-12">
       <div className="section-container">
@@ -118,21 +133,66 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Email Subscription Form */}
+          {/* Contact Form */}
           <div className="opacity-0 animate-fade-in animate-delay-200">
             <div className="bg-peri-lightpink p-8 rounded-2xl h-full flex flex-col">
               <h3 className="text-2xl font-bold mb-6 text-gray-800">Message</h3>
               <div className="flex-grow flex flex-col justify-center">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email Address
-                    </label>
-                    <Input type="email" id="email" name="email" value={email} onChange={handleChange} required className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="your.email@example.com" />
+                    <Label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
+                      Name
+                    </Label>
+                    <Input 
+                      type="text" 
+                      id="name" 
+                      name="name" 
+                      value={formData.name} 
+                      onChange={handleChange} 
+                      required 
+                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
+                      placeholder="Your full name" 
+                    />
                   </div>
                   
-                  <Button type="submit" disabled={isLoading} className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50">
-                    {isLoading ? "Submitting..." : "Subscribe"}
+                  <div>
+                    <Label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                      Email Address
+                    </Label>
+                    <Input 
+                      type="email" 
+                      id="email" 
+                      name="email" 
+                      value={formData.email} 
+                      onChange={handleChange} 
+                      required 
+                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
+                      placeholder="your.email@example.com" 
+                    />
+                  </div>
+                  
+                  <div>
+                    <Label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                      Message
+                    </Label>
+                    <Textarea 
+                      id="message" 
+                      name="message" 
+                      value={formData.message} 
+                      onChange={handleChange} 
+                      required 
+                      rows={4}
+                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
+                      placeholder="Tell us how we can help you..."
+                    />
+                  </div>
+                  
+                  <Button 
+                    type="submit" 
+                    disabled={isLoading} 
+                    className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50"
+                  >
+                    {isLoading ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
               </div>
