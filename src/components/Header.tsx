@@ -43,7 +43,7 @@ const Header = () => {
               Get Started
             </a>
             <a href="#contact">
-              <Button className="bg-peri-magenta hover:bg-peri-darkpink text-white rounded-full">
+              <Button className="text-white rounded-full bg-[#e60073]">
                 Contact
               </Button>
             </a>
