@@ -1,15 +1,12 @@
-
 import { Mail, Globe } from "lucide-react";
-
 const Contact = () => {
-  return (
-    <section id="contact" className="bg-white py-16 md:py-24">
+  return <section id="contact" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
             <Mail className="h-5 w-5 text-[#e60073]" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Learn More</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact</h2>
           <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
           <p className="max-w-2xl text-gray-700 text-lg">
             Have questions about our services or ready to start your journey? Visit our website for more information.
@@ -71,8 +68,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
