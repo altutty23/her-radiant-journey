@@ -5,6 +5,7 @@ import About from "@/components/About";
 import GetStarted from "@/components/GetStarted";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import SideSlider from "@/components/SideSlider";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <SideSlider />
     </div>
   );
 };

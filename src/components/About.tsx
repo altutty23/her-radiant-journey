@@ -1,12 +1,8 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Slider } from "@/components/ui/slider";
 import { Info, Award, Users, BookOpen } from "lucide-react";
-import { useState } from "react";
 
 const About = () => {
-  const [sliderValue, setSliderValue] = useState([75]);
-
   return <section id="about" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
@@ -96,31 +92,12 @@ const About = () => {
           </div>
         </div>
 
-        {/* My Life Section with Box and Slider */}
+        {/* My Life Section with Box */}
         <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl p-8 opacity-0 animate-fade-in animate-delay-500">
-          <div className="flex flex-col lg:flex-row gap-8">
-            <div className="flex-1">
-              <h3 className="text-2xl font-bold text-[#e60073] mb-6">My Life</h3>
-              <p className="text-gray-700 mb-6">
-                I've been proudly married to my hubs for 24 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.
-              </p>
-            </div>
-            
-            <div className="flex flex-col items-center justify-center lg:w-48">
-              <label className="text-sm font-medium text-[#e60073] mb-4">Life Balance</label>
-              <div className="h-32 flex items-center">
-                <Slider
-                  value={sliderValue}
-                  onValueChange={setSliderValue}
-                  max={100}
-                  step={1}
-                  orientation="vertical"
-                  className="h-full"
-                />
-              </div>
-              <span className="text-xs text-gray-600 mt-2">{sliderValue[0]}%</span>
-            </div>
-          </div>
+          <h3 className="text-2xl font-bold text-[#e60073] mb-6">My Life</h3>
+          <p className="text-gray-700">
+            I've been proudly married to my hubs for 24 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.
+          </p>
         </Card>
       </div>
     </section>;
