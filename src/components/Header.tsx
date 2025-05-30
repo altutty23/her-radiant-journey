@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -37,13 +38,17 @@ const Header = () => {
     });
     setMobileMenuOpen(false);
   };
+  const handleBlogClick = () => {
+    // Blog functionality to be implemented later
+    setMobileMenuOpen(false);
+  };
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <span className="font-bold text-2xl text-black">The </span>
-              <span className="font-bold text-2xl text-[#e60073]"> Peri</span>
+              <span className="font-bold text-2xl text-[#e60073]"> Peri</span>
               <span className="font-bold text-2xl text-black">professional</span>
             </Link>
           </div>
@@ -58,6 +63,9 @@ const Header = () => {
             </button>
             <button onClick={() => scrollToSection('get-started')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               Get Started
+            </button>
+            <button onClick={handleBlogClick} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
+              Blog
             </button>
             <button onClick={() => scrollToSection('contact')}>
               <Button className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f]">
@@ -86,6 +94,9 @@ const Header = () => {
             </button>
             <button onClick={() => scrollToSection('get-started')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               Get Started
+            </button>
+            <button onClick={handleBlogClick} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
+              Blog
             </button>
             <button onClick={() => scrollToSection('contact')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               Contact
