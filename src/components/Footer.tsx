@@ -8,12 +8,14 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periproffesional</h3>
             <p className="text-gray-300 mb-4">
-              Expert guidance and compassionate support<br />
-              for your menopause journey.
+              Empowering women through their menopause journey with<br />
+              expert guidance, personalized support, and compassionate care.<br />
+              Navigate this transformative phase of life with confidence<br />
+              and reclaim your well-being.
             </p>
           </div>
           
-          <div>
+          <div className="text-right">
             <h4 className="font-bold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#home" className="text-gray-300 hover:text-peri-pink transition-colors">Home</a></li>
