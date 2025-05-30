@@ -24,7 +24,7 @@ const Hero = () => {
                   Get Started
                 </Button>
               </a>
-              <a href="https://theperiprofessional.substack.com" target="_blank" rel="noopener noreferrer">
+              <a href="https://theperiprofessional.substack.com/p/paid-services" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="btn-secondary">
                   Explore Services
                 </Button>
