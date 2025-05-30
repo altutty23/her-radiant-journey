@@ -1,4 +1,5 @@
 
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -7,7 +8,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periproffesional</h3>
             <p className="text-gray-300 mb-4">
-              Expert guidance and compassionate support for your menopause journey.
+              Expert guidance and compassionate support<br />
+              for your menopause journey.
             </p>
           </div>
           
@@ -31,3 +33,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
