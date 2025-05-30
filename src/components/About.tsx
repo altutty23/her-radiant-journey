@@ -14,7 +14,7 @@ const About = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative opacity-0 animate-fade-in animate-delay-100">
-            <div className="relative z-10">
+            <div className="relative z-10 max-w-md mx-auto">
               <img src="/lovable-uploads/0a8e9de0-522d-43f4-b075-e0f9e586b6ca.png" alt="Shelby, The Periproffesional" className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
             <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 w-16 h-64 rounded-full bg-gradient-to-b from-peri-pink to-[#e60073] -z-10"></div>

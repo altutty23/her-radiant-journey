@@ -130,7 +130,7 @@ const Blog = () => {
           <div className="text-center mt-12">
             <Button 
               onClick={handleMorePostsClick}
-              className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f] px-8 py-3"
+              className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f] px-12 py-4 text-lg"
             >
               More Posts
             </Button>
