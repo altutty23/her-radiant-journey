@@ -7,11 +7,9 @@ const About = () => {
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
             <Info className="h-5 w-5 text-[#e60073]" />
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">About The Periproffesional</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">About The Periprofessional</h2>
           <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
-          <p className="max-w-3xl text-gray-700 text-lg">
-            Trustworthy perimenopause & menopause health information that doesn't bore you to tears! Science packaged as entertainment.
-          </p>
+          <p className="max-w-3xl text-gray-700 text-lg">Trustworthy perimenopause & menopause health information that doesn't bore you to tears! Keeping it real and talking TMI. I tell it like it is... facts.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
