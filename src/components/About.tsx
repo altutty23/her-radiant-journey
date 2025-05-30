@@ -83,7 +83,7 @@ const About = () => {
                   <li>• Member of The Menopause Society (formerly NAMS)</li>
                   <li>• Member of the International Menopause Society (IMS)</li>
                   <li>• Member of the National Menopause Foundation</li>
-                  <li>• 30+ years in healthcare industry</li>
+                  <li>• 30+ years in the healthcare industry</li>
                 </ul>
               </CardContent>
             </Card>
