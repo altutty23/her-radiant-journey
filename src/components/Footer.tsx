@@ -1,3 +1,4 @@
+
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -6,10 +7,10 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periproffesional</h3>
             <p className="text-gray-300 mb-4">
-              Empowering women through their menopause journey with<br />
-              expert guidance, personalized support, and compassionate care.<br />
-              Navigate this transformative phase of life with confidence<br />
-              and reclaim your well-being.
+              Empowering women through their menopause journey with expert guidance,<br />
+              personalized support, and compassionate care. Navigate this transformative<br />
+              phase of life with confidence and reclaim your well-being while discovering<br />
+              new opportunities for growth and self-discovery.
             </p>
           </div>
           
