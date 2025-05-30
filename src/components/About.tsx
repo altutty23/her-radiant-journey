@@ -40,7 +40,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
               <BookOpen className="h-8 w-8 text-[#e60073] mx-auto mb-3" />
-              <h4 className="font-bold text-gray-800 mb-2">Science Backed Content</h4>
+              <h4 className="font-bold text-gray-800 mb-2">Science-backed Content</h4>
               <p className="text-sm text-gray-700">Written personally by me using science with sources included as needed.</p>
             </div>
             <div className="text-center">
