@@ -1,7 +1,10 @@
+
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen } from "lucide-react";
+
 const About = () => {
-  return <section id="about" className="bg-white py-16 md:py-24">
+  return (
+    <section id="about" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -92,6 +95,8 @@ const About = () => {
           <p className="text-gray-700">I've been proudly married to my hubs for 25 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.</p>
         </Card>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default About;

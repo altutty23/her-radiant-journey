@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Perimenopause = () => {
   return (
-    <section id="perimenopause" className="bg-gray-50 py-16 md:py-24">
+    <section id="perimenopause" className="bg-gray-50 py-8 md:py-12">
       <div className="section-container">
         <div className="text-center mb-16 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Perimenopause, huh?</h2>
