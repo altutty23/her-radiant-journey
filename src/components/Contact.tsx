@@ -1,3 +1,4 @@
+
 import { Mail, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -26,12 +27,12 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
-      // Create form data for the mailhook
+      // Create form data for the mailhook with correct field names
       const formData = new FormData();
-      formData.append('to', '3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com');
-      formData.append('from', email);
-      formData.append('subject', 'New Website Subscription');
+      formData.append('subject', email); // Set subject to the submitted email
       formData.append('text', `New subscription from: ${email}\nTimestamp: ${new Date().toISOString()}\nSource: website_contact_form`);
+      formData.append('sender', email);
+      formData.append('recipients', '3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com');
 
       const response = await fetch("https://hook.us2.make.com/3w8c2iticdtq45ht1d0tmdao65v5ekbd", {
         method: "POST",
