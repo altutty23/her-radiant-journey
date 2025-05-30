@@ -31,13 +31,16 @@ const Contact = () => {
     console.log("Submitting contact form:", formData);
     
     try {
+      // Create form data to send as separate fields
+      const formDataToSend = new FormData();
+      formDataToSend.append('name', formData.name);
+      formDataToSend.append('email', formData.email);
+      formDataToSend.append('message', formData.message);
+      
       const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
         mode: "no-cors",
-        body: JSON.stringify(formData)
+        body: formDataToSend
       });
       
       toast({
