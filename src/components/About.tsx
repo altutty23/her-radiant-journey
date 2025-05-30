@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white py-16 md:py-24">
+  return <section id="about" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -20,11 +17,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative opacity-0 animate-fade-in animate-delay-100">
             <div className="relative z-10">
-              <img
-                src="/lovable-uploads/0a8e9de0-522d-43f4-b075-e0f9e586b6ca.png"
-                alt="Shelby, The Periproffesional"
-                className="w-full h-auto rounded-2xl shadow-lg"
-              />
+              <img src="/lovable-uploads/0a8e9de0-522d-43f4-b075-e0f9e586b6ca.png" alt="Shelby, The Periproffesional" className="w-full h-auto rounded-2xl shadow-lg" />
             </div>
             <div className="absolute top-1/2 -right-8 transform -translate-y-1/2 w-16 h-64 rounded-full bg-gradient-to-b from-peri-pink to-[#e60073] -z-10"></div>
           </div>
@@ -104,18 +97,9 @@ const About = () => {
             I've been proudly married to my hubs for 24 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.
           </p>
           
-          <div className="bg-gradient-to-r from-peri-pink to-peri-lightpink rounded-2xl p-6 max-w-2xl mx-auto">
-            <h4 className="font-bold text-[#e60073] mb-4">Two Truths and a Lie</h4>
-            <ul className="space-y-2 text-gray-700">
-              <li>• At 48, I climbed the dome at the City Museum in St. Louis, Missouri</li>
-              <li>• 25 years ago, I accidentally talked my way into a CIA facility</li>
-              <li>• In 2023, I was a background actor in a Christmas movie</li>
-            </ul>
-          </div>
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
