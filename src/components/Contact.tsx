@@ -3,7 +3,6 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useToast } from "@/hooks/use-toast";
-
 const Contact = () => {
   const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -12,31 +11,26 @@ const Contact = () => {
   } = useToast();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
     if (!email) {
       toast({
         title: "Error",
         description: "Please enter your email address",
-        variant: "destructive",
+        variant: "destructive"
       });
       return;
     }
-
     setIsLoading(true);
     console.log("Submitting email to webhook:", email);
-
     try {
       console.log("Sending email:", email);
-
       const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
         headers: {
-          "Content-Type": "text/plain",
+          "Content-Type": "text/plain"
         },
         mode: "no-cors",
-        body: email,
+        body: email
       });
-
       toast({
         title: "Email submitted!",
         description: "Thank you for subscribing. We'll keep you updated."
@@ -47,7 +41,7 @@ const Contact = () => {
       toast({
         title: "Error",
         description: "Failed to submit email. Please try again.",
-        variant: "destructive",
+        variant: "destructive"
       });
     } finally {
       setIsLoading(false);
@@ -56,8 +50,7 @@ const Contact = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
-  return (
-    <section id="contact" className="bg-white py-16 md:py-24">
+  return <section id="contact" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -128,30 +121,17 @@ const Contact = () => {
           {/* Email Subscription Form */}
           <div className="opacity-0 animate-fade-in animate-delay-200">
             <div className="bg-peri-lightpink p-8 rounded-2xl h-full flex flex-col">
-              <h3 className="text-2xl font-bold mb-6 text-gray-800">Stay Updated</h3>
+              <h3 className="text-2xl font-bold mb-6 text-gray-800">Message</h3>
               <div className="flex-grow flex flex-col justify-center">
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                       Email Address
                     </label>
-                    <Input 
-                      type="email" 
-                      id="email" 
-                      name="email" 
-                      value={email} 
-                      onChange={handleChange} 
-                      required 
-                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
-                      placeholder="your.email@example.com" 
-                    />
+                    <Input type="email" id="email" name="email" value={email} onChange={handleChange} required className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="your.email@example.com" />
                   </div>
                   
-                  <Button 
-                    type="submit" 
-                    disabled={isLoading}
-                    className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50"
-                  >
+                  <Button type="submit" disabled={isLoading} className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50">
                     {isLoading ? "Submitting..." : "Subscribe"}
                   </Button>
                 </form>
@@ -160,7 +140,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
 export default Contact;
