@@ -26,17 +26,17 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
+      // Create form data for the mailhook
+      const formData = new FormData();
+      formData.append('to', '3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com');
+      formData.append('from', email);
+      formData.append('subject', 'New Website Subscription');
+      formData.append('text', `New subscription from: ${email}\nTimestamp: ${new Date().toISOString()}\nSource: website_contact_form`);
+
       const response = await fetch("https://hook.us2.make.com/3w8c2iticdtq45ht1d0tmdao65v5ekbd", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
         mode: "no-cors",
-        body: JSON.stringify({
-          email: email,
-          timestamp: new Date().toISOString(),
-          source: "website_contact_form"
-        }),
+        body: formData,
       });
 
       toast({
@@ -58,7 +58,8 @@ const Contact = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   };
-  return <section id="contact" className="bg-white py-16 md:py-24">
+  return (
+    <section id="contact" className="bg-white py-16 md:py-24">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -161,6 +162,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default Contact;
