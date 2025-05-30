@@ -33,7 +33,7 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-gray-700 hover:text-#e60073 font-medium transition-colors">
+            <a href="#about" className="text-gray-700 hover:text-peri-magenta font-medium transition-colors">
               About
             </a>
             <a href="#services" className="text-gray-700 hover:text-peri-magenta font-medium transition-colors">
