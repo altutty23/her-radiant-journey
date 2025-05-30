@@ -48,8 +48,7 @@ const Header = () => {
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
               <span className="font-bold text-2xl text-black">The </span>
-              <span className="font-bold text-2xl text-[#e60073]">Peri</span>
-              <span className="font-bold text-2xl text-black"> professional</span>
+              <span className="font-bold text-2xl text-[#e60073]">Periprofessional</span>
             </Link>
           </div>
 
