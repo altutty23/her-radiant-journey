@@ -1,7 +1,5 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen } from "lucide-react";
-
 const About = () => {
   return <section id="about" className="bg-white py-16 md:py-24">
       <div className="section-container">
@@ -25,7 +23,7 @@ const About = () => {
           </div>
 
           <div className="space-y-6 opacity-0 animate-fade-in animate-delay-200">
-            <h3 className="text-2xl font-bold text-gray-800">Meet Shelby, The Periproffesional</h3>
+            <h3 className="text-2xl font-bold text-gray-800">Meet Shelby, The Periprofessional</h3>
             <p className="text-gray-700">
               "The Mrs. Maisel of menopause!" I'm a certified perimenopause educator who blends science and humor. Are you over 40 and haven't felt like yourself lately? Stick around and learn why the biology of perimenopause may be making you feel like crap.
             </p>
@@ -102,5 +100,4 @@ const About = () => {
       </div>
     </section>;
 };
-
 export default About;
