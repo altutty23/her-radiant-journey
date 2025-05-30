@@ -114,9 +114,11 @@ const Services = () => {
         </div>
 
         <div className="text-center mt-12 opacity-0 animate-fade-in animate-delay-400">
-          <Button className="bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
-            Explore Services
-          </Button>
+          <a href="https://theperiprofessional.substack.com" target="_blank" rel="noopener noreferrer">
+            <Button className="bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full px-8 py-3">
+              Explore Services
+            </Button>
+          </a>
         </div>
       </div>
     </section>

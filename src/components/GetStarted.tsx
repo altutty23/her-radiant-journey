@@ -20,7 +20,7 @@ const GetStarted = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* 1:1 Appointments */}
-          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-100">
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-100 flex flex-col">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
                 <Calendar className="h-6 w-6 text-white" />
@@ -30,8 +30,8 @@ const GetStarted = () => {
                 Personal support with a certified perimenopause educator
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <ul className="space-y-2 text-sm text-gray-700">
+            <CardContent className="flex flex-col flex-grow">
+              <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
                   Easy to schedule appointments
@@ -49,14 +49,16 @@ const GetStarted = () => {
                   No long-term commitment
                 </li>
               </ul>
-              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full mt-6">
-                Schedule Now
-              </Button>
+              <a href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional" target="_blank" rel="noopener noreferrer" className="mt-auto">
+                <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
+                  Schedule Now
+                </Button>
+              </a>
             </CardContent>
           </Card>
 
           {/* Free Subscription */}
-          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-150">
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-150 flex flex-col">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
                 <Gift className="h-6 w-6 text-white" />
@@ -66,8 +68,8 @@ const GetStarted = () => {
                 Access to Substack and weekly newsletters
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <ul className="space-y-2 text-sm text-gray-700">
+            <CardContent className="flex flex-col flex-grow">
+              <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
                   Weekly newsletter delivery
@@ -85,18 +87,20 @@ const GetStarted = () => {
                   No payment required
                 </li>
               </ul>
-              <div className="text-center">
+              <div className="text-center mb-4">
                 <p className="text-2xl font-bold text-[#e60073] mb-2">Free</p>
-                <p className="text-sm text-gray-600 mb-4">Always free access</p>
+                <p className="text-sm text-gray-600">Always free access</p>
               </div>
-              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
-                Subscribe Free
-              </Button>
+              <a href="https://theperiprofessional.substack.com" target="_blank" rel="noopener noreferrer" className="mt-auto">
+                <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
+                  Subscribe Free
+                </Button>
+              </a>
             </CardContent>
           </Card>
 
           {/* Paid Subscription */}
-          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-200">
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-200 flex flex-col">
             <CardHeader className="text-center pb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
                 <Mail className="h-6 w-6 text-white" />
@@ -106,8 +110,8 @@ const GetStarted = () => {
                 Expert advice delivered to your inbox monthly
               </CardDescription>
             </CardHeader>
-            <CardContent className="space-y-4">
-              <ul className="space-y-2 text-sm text-gray-700">
+            <CardContent className="flex flex-col flex-grow">
+              <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
                   Self-motivated learning
@@ -125,13 +129,15 @@ const GetStarted = () => {
                   Discounts on 1:1 services
                 </li>
               </ul>
-              <div className="text-center">
+              <div className="text-center mb-4">
                 <p className="text-2xl font-bold text-[#e60073] mb-2">$7/month</p>
-                <p className="text-sm text-gray-600 mb-4">or $75 annually</p>
+                <p className="text-sm text-gray-600">or $75 annually</p>
               </div>
-              <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
-                Subscribe Now
-              </Button>
+              <a href="https://theperiprofessional.substack.com/p/paid-services" target="_blank" rel="noopener noreferrer" className="mt-auto">
+                <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
+                  Subscribe Now
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
@@ -140,9 +146,11 @@ const GetStarted = () => {
           <p className="text-gray-600 mb-4">
             Not sure which option is right for you?
           </p>
-          <Button variant="outline" className="border-[#e60073] text-[#e60073] hover:bg-[#e60073] hover:text-white rounded-full">
-            Learn More About Services
-          </Button>
+          <a href="https://theperiprofessional.substack.com/p/paid-services" target="_blank" rel="noopener noreferrer">
+            <Button variant="outline" className="border-[#e60073] text-[#e60073] hover:bg-[#e60073] hover:text-white rounded-full">
+              Learn More About Services
+            </Button>
+          </a>
         </div>
       </div>
     </section>

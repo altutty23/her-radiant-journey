@@ -1,6 +1,9 @@
+
 import { Button } from '@/components/ui/button';
+
 const Hero = () => {
-  return <div className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden">
+  return (
+    <div className="relative pt-24 md:pt-32 pb-16 md:pb-24 overflow-hidden">
       {/* Background Element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-peri-lightpink rounded-bl-[100px] -z-10 opacity-70"></div>
       <div className="absolute top-20 right-20 w-72 h-72 rounded-full bg-peri-pink opacity-30 blur-3xl -z-10"></div>
@@ -21,7 +24,7 @@ const Hero = () => {
                   Get Started
                 </Button>
               </a>
-              <a href="#services">
+              <a href="https://theperiprofessional.substack.com" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="btn-secondary">
                   Explore Services
                 </Button>
@@ -40,6 +43,8 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>;
+    </div>
+  );
 };
+
 export default Hero;
