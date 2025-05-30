@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periproffesional</h3>
+            <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periprofessional</h3>
             <p className="text-gray-300 mb-4">
               Empowering women through their menopause journey with<br />
               expert guidance, personalized support, and compassionate care.<br />
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 mt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} The Periproffesional. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} The Periprofessional. All rights reserved.</p>
         </div>
       </div>
     </footer>
