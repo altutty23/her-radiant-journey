@@ -1,5 +1,3 @@
-
-
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
@@ -15,7 +13,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div className="text-right">
+          <div className="text-left">
             <h4 className="font-bold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
               <li><a href="#home" className="text-gray-300 hover:text-peri-pink transition-colors">Home</a></li>
@@ -35,4 +33,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
