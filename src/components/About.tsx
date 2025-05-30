@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white py-8 md:py-12">
+  return <section id="about" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -33,7 +30,7 @@ const About = () => {
               In October 2019, at 49, I walked into my annual doctor's appointment and said, "I'm not feeling like myself." I had all sorts of weird symptoms, but I couldn't pinpoint what they were related to or why they were happening.
             </p>
 
-            <p className="text-gray-700">The Periprofessional website and newsletter are written by me, a certified menopause educator. They are filled with valuable, applicable health and wellness information. No boring lectures or complicated terms here!</p>
+            <p className="text-gray-700">The Periprofessional is your supportive ally in navigating perimenopause, helping you understand the changes occurring in your body and what to do about them so you can begin to feel better.</p>
           </div>
         </div>
 
@@ -95,8 +92,6 @@ const About = () => {
           <p className="text-gray-700">I've been proudly married to my hubs for 25 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.</p>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
