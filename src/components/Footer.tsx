@@ -3,7 +3,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-12">
       <div className="section-container">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periproffesional</h3>
             <p className="text-gray-300 mb-4">
@@ -14,20 +14,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-4 text-white">Quick Links</h4>
             <ul className="space-y-2">
+              <li><a href="#home" className="text-gray-300 hover:text-peri-pink transition-colors">Home</a></li>
               <li><a href="#about" className="text-gray-300 hover:text-peri-pink transition-colors">About</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-peri-pink transition-colors">Services</a></li>
               <li><a href="#get-started" className="text-gray-300 hover:text-peri-pink transition-colors">Get Started</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-peri-pink transition-colors">Contact</a></li>
-            </ul>
-          </div>
-          
-          <div>
-            <h4 className="font-bold mb-4 text-white">Services</h4>
-            <ul className="space-y-2">
-              <li><a href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional" className="text-gray-300 hover:text-peri-pink transition-colors">1:1 Coaching</a></li>
-              <li><a href="https://theperiprofessional.substack.com" className="text-gray-300 hover:text-peri-pink transition-colors">Group Workshops</a></li>
-              <li><a href="https://theperiprofessional.substack.com/p/paid-services" className="text-gray-300 hover:text-peri-pink transition-colors">Hormone Balance Plan</a></li>
-              <li><a href="https://theperiprofessional.substack.com/p/paid-services" className="text-gray-300 hover:text-peri-pink transition-colors">Menopause Mastery Course</a></li>
             </ul>
           </div>
           
