@@ -93,9 +93,7 @@ const About = () => {
         {/* My Life Section with Box */}
         <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl p-8 opacity-0 animate-fade-in animate-delay-500">
           <h3 className="text-2xl font-bold text-[#e60073] mb-6">My Life</h3>
-          <p className="text-gray-700">
-            I've been proudly married to my hubs for 24 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.
-          </p>
+          <p className="text-gray-700">I've been proudly married to my hubs for 25 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.</p>
         </Card>
       </div>
     </section>;
