@@ -26,21 +26,15 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
-      const payload = {
-        email: email,
-        timestamp: new Date().toISOString(),
-        source: "website_contact_form"
-      };
-
-      console.log("Sending payload:", payload);
+      console.log("Sending email:", email);
 
       const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "text/plain",
         },
         mode: "no-cors",
-        body: JSON.stringify(payload),
+        body: email,
       });
 
       toast({
