@@ -61,9 +61,7 @@ const GetStarted = () => {
                 <Gift className="h-6 w-6 text-white" />
               </div>
               <CardTitle className="text-xl font-bold text-gray-800">Free Subscription</CardTitle>
-              <CardDescription className="text-gray-600">
-                Access to Substack and weekly newsletters
-              </CardDescription>
+              <CardDescription className="text-gray-600">Access to Substack and weekly newsletter</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
