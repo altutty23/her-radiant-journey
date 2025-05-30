@@ -1,6 +1,7 @@
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Button } from "@/components/ui/button";
 
 const Blog = () => {
   const blogPosts = [
@@ -80,6 +81,10 @@ const Blog = () => {
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
+  const handleMorePostsClick = () => {
+    window.open('https://theperiprofessional.substack.com/archive?sort=new', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -120,6 +125,15 @@ const Blog = () => {
                 </div>
               </article>
             ))}
+          </div>
+
+          <div className="text-center mt-12">
+            <Button 
+              onClick={handleMorePostsClick}
+              className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f] px-8 py-3"
+            >
+              More Posts
+            </Button>
           </div>
         </section>
       </main>
