@@ -58,9 +58,7 @@ const Contact = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact</h2>
           <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
-          <p className="max-w-2xl text-gray-700 text-lg">
-            Have questions about our services or ready to start your journey? Visit our website for more information or subscribe to our updates.
-          </p>
+          <p className="max-w-2xl text-gray-700 text-lg">Have questions about our services or ready to start your journey? Visit our website for more information or want to get in touch.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
