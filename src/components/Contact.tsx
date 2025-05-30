@@ -26,17 +26,15 @@ const Contact = () => {
     console.log("Submitting email to webhook:", email);
 
     try {
-      // Send as JSON payload instead of FormData
       const payload = {
-        subject: email,
-        text: `New subscription from: ${email}\nTimestamp: ${new Date().toISOString()}\nSource: website_contact_form`,
-        sender: email,
-        recipients: "3w8c2iticdtq45ht1d0tmdao65v5ekbd@hook.us2.make.com"
+        email: email,
+        timestamp: new Date().toISOString(),
+        source: "website_contact_form"
       };
 
       console.log("Sending payload:", payload);
 
-      const response = await fetch("https://hook.us2.make.com/3w8c2iticdtq45ht1d0tmdao65v5ekbd", {
+      const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
