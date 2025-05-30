@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
         
         <div className="pt-8 mt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} The Periprofessional. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} The Periprofessional, LLC. All rights reserved.</p>
         </div>
       </div>
     </footer>
