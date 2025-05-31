@@ -25,9 +25,7 @@ const About = () => {
               "The Mrs. Maisel of menopause!" I'm a certified perimenopause educator who blends science and humor. Are you over 40 and haven't felt like yourself lately? Stick around and learn why the biology of perimenopause may be making you feel like crap.
             </p>
             
-            <p className="text-gray-700">
-              In October 2019, at 49, I walked into my annual doctor's appointment and said, "I'm not feeling like myself." I had all sorts of weird symptoms, but I couldn't pinpoint what they were related to or why they were happening.
-            </p>
+            <p className="text-gray-700">I'm perimenopausal, just like you. I've been studying perimenopause and menopause since 2021, after my own rough start to perimenopause several years before. I had all sorts of weird symptoms, but I, but I couldn't pinpoint what they were related to or why they were happening. The information back then was terrible, and I became committed to changing that by becoming certified in menopause and training to become a health coach.</p>
 
             <p className="text-gray-700">The Periprofessional is your supportive ally in navigating perimenopause, helping you understand the changes occurring in your body and what to do about them so you can begin to feel better.</p>
           </div>
