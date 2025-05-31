@@ -33,7 +33,7 @@ const Hero = () => {
 
           <div className="relative opacity-0 animate-fade-in animate-delay-200">
             <div className="relative z-10 bg-white p-3 rounded-2xl shadow-xl">
-              <iframe className="w-full aspect-video rounded-xl" src="https://www.youtube.com/embed/eZdaMN0Kje8?si=SLYbt7FYX0_T7sZf" title="The Periprofessional Introduction" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+              <iframe className="w-full aspect-video rounded-xl" src="https://www.youtube.com/embed/w-wjFCK_05g?si=HE0tbKt_6-Gc-eSr" title="The Periprofessional Introduction" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
               </iframe>
             </div>
             {/* Decorative elements */}
