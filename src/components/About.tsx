@@ -1,7 +1,9 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Info, Award, Users, BookOpen } from "lucide-react";
+import { Info, Award, Users, BookOpen, Quote } from "lucide-react";
+
 const About = () => {
-  return <section id="about" className="bg-white py-8 md:py-12">
+  return (
+    <section id="about" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -88,7 +90,24 @@ const About = () => {
           <h3 className="text-2xl font-bold text-[#e60073] mb-6">My Life</h3>
           <p className="text-gray-700">I've been proudly married to my hubs for 25 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.</p>
         </Card>
+
+        {/* Testimonial Section */}
+        <div className="mt-16 opacity-0 animate-fade-in animate-delay-600">
+          <Card className="border-2 border-[#e60073] bg-peri-lightpink shadow-lg rounded-2xl p-8">
+            <div className="text-center">
+              <Quote className="h-12 w-12 text-[#e60073] mx-auto mb-6" />
+              <blockquote className="text-xl md:text-2xl font-medium text-gray-800 mb-6 italic leading-relaxed">
+                "The Periprofessional uncovers TMI and turns it into education. For those curious about what the heck is really going on in our 40s and beyond, look no further because Shelby has you covered. Everything from explaining wild hormones, offering the best resources and tips, to managing interactions with doctors. She's here for all of it and more!"
+              </blockquote>
+              <div className="text-[#e60073] font-semibold">
+                — Jess Mujica, author of Go With The Flow: Women's Cycle Awareness
+              </div>
+            </div>
+          </Card>
+        </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default About;
