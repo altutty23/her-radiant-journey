@@ -1,10 +1,7 @@
-
 import { Button } from '@/components/ui/button';
 import { ChevronDown } from 'lucide-react';
-
 const Hero = () => {
-  return (
-    <div className="relative pt-24 md:pt-32 pb-8 md:pb-12 overflow-hidden">
+  return <div className="relative pt-24 md:pt-32 pb-8 md:pb-12 overflow-hidden">
       {/* Background Element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-peri-lightpink rounded-bl-[100px] -z-10 opacity-70"></div>
       <div className="absolute top-20 right-20 w-72 h-72 rounded-full bg-peri-pink opacity-30 blur-3xl -z-10"></div>
@@ -16,7 +13,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Embrace Your <span className="heading-gradient text-[ffoo80] text-[#e60073]">Perimenopause</span> Journey With Confidence
             </h1>
-            <p className="text-lg text-gray-700 max-w-lg">Perimenopause doesn't have to surprise you. Expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life. I am here to help guild you.</p>
+            <p className="text-lg text-gray-700 max-w-lg">Perimenopause doesn't have to surprise you. Expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life. I am here to help guide you.</p>
             <div className="flex flex-wrap gap-4">
               <a href="#get-started">
                 <Button className="btn-primary">
@@ -47,8 +44,6 @@ const Hero = () => {
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 opacity-0 animate-fade-in animate-delay-400">
         <ChevronDown className="h-8 w-8 text-[#e60073] animate-bounce" />
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Hero;
