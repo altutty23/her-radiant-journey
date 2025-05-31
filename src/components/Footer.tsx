@@ -26,8 +26,8 @@ const Footer = () => {
               <li><button onClick={scrollToTop} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Home</button></li>
               <li><button onClick={() => scrollToSection('perimenopause')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Perimenopause, huh?</button></li>
               <li><button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">About</button></li>
-              <li><button onClick={() => scrollToSection('get-started')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Get Started</button></li>
               <li><a href="/blog" className="text-gray-300 hover:text-peri-pink transition-colors text-left">Blog</a></li>
+              <li><button onClick={() => scrollToSection('get-started')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Get Started</button></li>
             </ul>
           </div>
           
