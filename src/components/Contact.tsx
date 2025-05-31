@@ -1,3 +1,4 @@
+
 import { Mail, Globe, Linkedin } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -136,10 +137,9 @@ const Contact = () => {
                   </a>
                   <a href="https://bsky.app/profile/periprofessional.bsky.social" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
                     <img 
-                      src="/lovable-uploads/6b7e47da-d8fd-42e9-a3e8-303664b1058d.png" 
+                      src="/lovable-uploads/c8075d3a-f907-412d-85db-d7a928a7420b.png" 
                       alt="Bluesky" 
                       className="w-6 h-6" 
-                      style={{ filter: 'hue-rotate(300deg) saturate(1.5) brightness(0.8)' }}
                     />
                   </a>
                 </div>
