@@ -85,7 +85,7 @@ const Perimenopause = () => {
           <div className="space-y-4">
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Am I going crazy?</h5>
-              <p className="text-gray-700">Most likely not. Perimenopause can upset the delicate balance of your hormones, temporarily affecting your brain and nervous system. It can sometimes make you feel like you're "losing your marbles."</p>
+              <p className="text-gray-700">Perimenopause can upset the delicate balance of your hormones, temporarily affecting your brain and nervous system. It can sometimes make you feel like you're "losing your marbles."</p>
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Who gets perimenopause?</h5>
