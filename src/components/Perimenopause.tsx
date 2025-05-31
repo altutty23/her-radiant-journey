@@ -15,9 +15,7 @@ const Perimenopause = () => {
             <p className="text-gray-700">
               If you're wondering what exactly perimenopause is, you're in the right place. Perimenopause is the time during which your body begins the menopause transition.
             </p>
-            <p className="text-gray-700">
-              On average, it starts around 45 (think Kate Hudson, not Golden Girls) and can last for up to 14 years before you enter menopause—which occurs when you've gone 365 days without a period (spotting counts). So basically, menopause doesn't start at menopause; the "menopause transition" or perimenopause actually begins in the years leading up to it.
-            </p>
+            <p className="text-gray-700">On average, it starts around 45 (think Kate Hudson, not Golden Girls) and can last for up to 14 years before you enter menopause—which occurs when you've gone 365 days without a period (spotting counts). So basically, menopause changes don't start at menopause; the "menopause transition" known as perimenopause actually begins in the years leading up to it.</p>
             <div className="bg-white p-6 rounded-2xl shadow-sm">
               <p className="text-gray-600 italic mb-4">You may hear yourself say:</p>
               <ul className="space-y-2 text-gray-700">
