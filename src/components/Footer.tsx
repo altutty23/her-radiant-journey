@@ -1,4 +1,3 @@
-
 const Footer = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -8,16 +7,13 @@ const Footer = () => {
       });
     }
   };
-
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   };
-
-  return (
-    <footer className="bg-gray-800 text-white py-12">
+  return <footer className="bg-gray-800 text-white py-12">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="text-left">
@@ -32,7 +28,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periprofessional, LLC.</h3>
+            <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periprofessional, LLC</h3>
             <p className="text-gray-300 mb-4">
               Empowering women through their menopause journey with<br />
               expert guidance, personalized support, and compassionate care.<br />
@@ -46,8 +42,6 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} The Periprofessional, LLC. All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
