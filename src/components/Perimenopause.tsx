@@ -1,9 +1,6 @@
-
 import { Button } from '@/components/ui/button';
-
 const Perimenopause = () => {
-  return (
-    <section id="perimenopause" className="bg-gray-50 py-8 md:py-12">
+  return <section id="perimenopause" className="bg-gray-50 py-8 md:py-12">
       <div className="section-container">
         <div className="text-center mb-16 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Perimenopause, huh?</h2>
@@ -35,11 +32,7 @@ const Perimenopause = () => {
           {/* Timeline Image */}
           <div className="opacity-0 animate-fade-in animate-delay-200">
             <div className="bg-white p-4 rounded-2xl shadow-lg">
-              <img 
-                src="/lovable-uploads/502691b6-d37c-4d09-bd4a-003a25ca5255.png" 
-                alt="The Menopause Transition Timeline - The PeriProf Way" 
-                className="w-full h-auto rounded-xl"
-              />
+              <img src="/lovable-uploads/502691b6-d37c-4d09-bd4a-003a25ca5255.png" alt="The Menopause Transition Timeline - The PeriProf Way" className="w-full h-auto rounded-xl" />
             </div>
           </div>
         </div>
@@ -87,7 +80,7 @@ const Perimenopause = () => {
               <div className="bg-[#e60073] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3 font-bold text-xl">
                 14
               </div>
-              <p className="text-gray-700">Years perimenopause can last (on average)</p>
+              <p className="text-gray-700">Years perimenopause can last</p>
             </div>
           </div>
         </div>
@@ -121,8 +114,6 @@ const Perimenopause = () => {
           <p className="mt-4 text-gray-600">Get the complete guide with all FAQs and detailed information</p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Perimenopause;
