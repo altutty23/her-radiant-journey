@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white py-8 md:py-12">
+  return <section id="about" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -18,11 +15,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div className="relative opacity-0 animate-fade-in animate-delay-100">
             <div className="max-w-md mx-auto">
-              <img 
-                src="/lovable-uploads/0a8e9de0-522d-43f4-b075-e0f9e586b6ca.png" 
-                alt="Shelby, The Periproffesional" 
-                className="w-full h-auto rounded-2xl shadow-lg border-4 border-[#e60073]" 
-              />
+              <img src="/lovable-uploads/0a8e9de0-522d-43f4-b075-e0f9e586b6ca.png" alt="Shelby, The Periproffesional" className="w-full h-auto rounded-2xl shadow-lg border-4 border-[#e60073]" />
             </div>
           </div>
 
@@ -68,7 +61,7 @@ const About = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl">
               <CardContent className="pt-6">
-                <h4 className="font-bold text-[#e60073] mb-3">Education & Certification</h4>
+                <h4 className="font-bold text-[#e60073] mb-3">Education & Certifications</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li>• Certified menopause educator and trained health coach</li>
                   <li>• Master of Health Administration (MHA) from Clark University & UMass Chan Medical School</li>
@@ -98,8 +91,6 @@ const About = () => {
           <p className="text-gray-700">I've been proudly married to my hubs for 25 years and have college-aged twins. I love reading, laughing, and doing silly things. My bags are always packed for my next trip. I workout regularly and eat right (I follow an 80/20 rule). I "walk the talk" and am living proof you can thrive during this transition.</p>
         </Card>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
