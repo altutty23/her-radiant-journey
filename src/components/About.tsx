@@ -1,10 +1,7 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Info, Award, Users, BookOpen, Quote } from "lucide-react";
-
 const About = () => {
-  return (
-    <section id="about" className="bg-white py-8 md:py-12">
+  return <section id="about" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -28,7 +25,7 @@ const About = () => {
               "The Mrs. Maisel of menopause!" I'm a certified perimenopause educator who blends science and humor. Are you over 40 and haven't felt like yourself lately? Stick around and learn why the biology of perimenopause may be making you feel like crap.
             </p>
             
-            <p className="text-gray-700">I'm perimenopausal, just like you. I've been studying perimenopause and menopause since 2021, after my own rough start to perimenopause several years before. I had all sorts of weird symptoms,  but I couldn't pinpoint what they were related to or why they were happening. The information back then was terrible, and I became committed to changing that by becoming certified in menopause, training to become a health coach., and sharing my knowledge</p>
+            <p className="text-gray-700">I'm perimenopausal, just like you. I've been studying perimenopause and menopause since 2021, after my own rough start to perimenopause several years before. I had all sorts of weird symptoms,  but I couldn't pinpoint what they were related to or why they were happening. The information back then was terrible, and I became committed to changing that by becoming certified in menopause, training to become a health coach, and sharing my knowledge.</p>
 
             <p className="text-gray-700">The Periprofessional is your supportive ally in navigating perimenopause, helping you understand the changes occurring in your body and what to do about them so you can begin to feel better.</p>
           </div>
@@ -107,8 +104,6 @@ const About = () => {
           </Card>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
