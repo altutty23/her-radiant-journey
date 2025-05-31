@@ -74,7 +74,7 @@ const Perimenopause = () => {
               <div className="bg-[#e60073] text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-3 font-bold text-xl">
                 14
               </div>
-              <p className="text-gray-700">Years perimenopause can last</p>
+              <p className="text-gray-700">Years that perimenopause can last</p>
             </div>
           </div>
         </div>
