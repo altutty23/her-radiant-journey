@@ -97,7 +97,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <Card className="border-2 border-[#e60073] bg-peri-lightpink shadow-lg rounded-2xl p-8">
               <div className="text-left">
-                <Quote className="h-12 w-12 text-[#e60073] mb-6 transform scale-x-[-1]" />
+                <Quote className="h-12 w-12 text-[#e60073] mb-6 transform scale-x-[-1]" fill="#e60073" />
                 <blockquote className="text-lg md:text-xl text-gray-800 mb-6 italic leading-relaxed">
                   "The Periprofessional uncovers TMI and turns it into education. For those curious about what the heck is really going on in our 40s and beyond, look no further because Shelby has you covered. Everything from explaining wild hormones, offering the best resources and tips, to managing interactions with doctors. She's here for all of it and more!"
                 </blockquote>
@@ -109,7 +109,7 @@ const About = () => {
 
             <Card className="border-2 border-[#e60073] bg-peri-lightpink shadow-lg rounded-2xl p-8">
               <div className="text-left">
-                <Quote className="h-12 w-12 text-[#e60073] mb-6 transform scale-x-[-1]" />
+                <Quote className="h-12 w-12 text-[#e60073] mb-6 transform scale-x-[-1]" fill="#e60073" />
                 <blockquote className="text-lg md:text-xl text-gray-800 mb-6 italic leading-relaxed">
                   "Shelby provides a wealth of information about mid-life, and she does it with panache!"
                 </blockquote>
