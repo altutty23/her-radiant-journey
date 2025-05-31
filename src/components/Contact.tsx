@@ -1,4 +1,3 @@
-
 import { Mail, Globe } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -6,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -14,8 +12,9 @@ const Contact = () => {
     message: ""
   });
   const [isLoading, setIsLoading] = useState(false);
-  const { toast } = useToast();
-
+  const {
+    toast
+  } = useToast();
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) {
@@ -26,29 +25,28 @@ const Contact = () => {
       });
       return;
     }
-    
     setIsLoading(true);
     console.log("Submitting contact form:", formData);
-    
     try {
       // Create form data to send as separate fields
       const formDataToSend = new FormData();
       formDataToSend.append('name', formData.name);
       formDataToSend.append('email', formData.email);
       formDataToSend.append('message', formData.message);
-      
       const response = await fetch("https://hook.us2.make.com/5wanbi1o29ol530stdgpuryvkj1awcf1", {
         method: "POST",
         mode: "no-cors",
         body: formDataToSend
       });
-      
       toast({
         title: "Message sent!",
         description: "Thank you for your message. We'll get back to you soon."
       });
-      
-      setFormData({ name: "", email: "", message: "" });
+      setFormData({
+        name: "",
+        email: "",
+        message: ""
+      });
     } catch (error) {
       console.error("Error submitting form:", error);
       toast({
@@ -60,17 +58,17 @@ const Contact = () => {
       setIsLoading(false);
     }
   };
-
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
+    const {
+      name,
+      value
+    } = e.target;
     setFormData(prev => ({
       ...prev,
       [name]: value
     }));
   };
-
-  return (
-    <section id="contact" className="bg-white py-8 md:py-12">
+  return <section id="contact" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -78,7 +76,7 @@ const Contact = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Contact</h2>
           <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
-          <p className="max-w-2xl text-gray-700 text-lg">Have questions about our services or ready to start your journey? Visit our website for more information or want to get in touch.</p>
+          <p className="max-w-2xl text-gray-700 text-lg">Have questions about our services before you make a decision? ‎ ‎ ‎ Message me below.</p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -146,55 +144,24 @@ const Contact = () => {
                     <Label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
                       Name
                     </Label>
-                    <Input 
-                      type="text" 
-                      id="name" 
-                      name="name" 
-                      value={formData.name} 
-                      onChange={handleChange} 
-                      required 
-                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
-                      placeholder="Your full name" 
-                    />
+                    <Input type="text" id="name" name="name" value={formData.name} onChange={handleChange} required className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="Your full name" />
                   </div>
                   
                   <div>
                     <Label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
                       Email Address
                     </Label>
-                    <Input 
-                      type="email" 
-                      id="email" 
-                      name="email" 
-                      value={formData.email} 
-                      onChange={handleChange} 
-                      required 
-                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
-                      placeholder="your.email@example.com" 
-                    />
+                    <Input type="email" id="email" name="email" value={formData.email} onChange={handleChange} required className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="your.email@example.com" />
                   </div>
                   
                   <div>
                     <Label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
                       Message
                     </Label>
-                    <Textarea 
-                      id="message" 
-                      name="message" 
-                      value={formData.message} 
-                      onChange={handleChange} 
-                      required 
-                      rows={4}
-                      className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" 
-                      placeholder="Tell us how we can help you..."
-                    />
+                    <Textarea id="message" name="message" value={formData.message} onChange={handleChange} required rows={4} className="bg-white border-gray-300 focus:border-[#e60073] focus:ring-[#e60073]" placeholder="Tell us how we can help you..." />
                   </div>
                   
-                  <Button 
-                    type="submit" 
-                    disabled={isLoading} 
-                    className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50"
-                  >
+                  <Button type="submit" disabled={isLoading} className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white font-medium py-3 rounded-lg transition-colors disabled:opacity-50">
                     {isLoading ? "Sending..." : "Send Message"}
                   </Button>
                 </form>
@@ -203,8 +170,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
