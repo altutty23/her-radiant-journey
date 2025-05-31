@@ -1,4 +1,3 @@
-
 import { Mail, Globe, Linkedin } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
@@ -6,7 +5,6 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
-
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -70,8 +68,7 @@ const Contact = () => {
       [name]: value
     }));
   };
-  return (
-    <section id="contact" className="bg-white py-8 md:py-12">
+  return <section id="contact" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -115,7 +112,7 @@ const Contact = () => {
               </div>
               
               <div className="mt-8">
-                <h4 className="font-semibold mb-4 text-gray-800">Follow Us</h4>
+                <h4 className="font-semibold mb-4 text-gray-800">Follow Me</h4>
                 <div className="flex space-x-4">
                   <a href="https://www.threads.com/@theperiprofessional" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
                     <img src="/lovable-uploads/09d52609-fe44-4dd0-a9a1-b1ef21e6625c.png" alt="Threads" className="w-6 h-6" />
@@ -136,11 +133,7 @@ const Contact = () => {
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a href="https://bsky.app/profile/periprofessional.bsky.social" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
-                    <img 
-                      src="/lovable-uploads/c8075d3a-f907-412d-85db-d7a928a7420b.png" 
-                      alt="Bluesky" 
-                      className="w-6 h-6" 
-                    />
+                    <img src="/lovable-uploads/c8075d3a-f907-412d-85db-d7a928a7420b.png" alt="Bluesky" className="w-6 h-6" />
                   </a>
                 </div>
               </div>
@@ -183,8 +176,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Contact;
