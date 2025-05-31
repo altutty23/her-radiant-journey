@@ -30,7 +30,7 @@ const Perimenopause = () => {
           {/* Timeline Image */}
           <div className="opacity-0 animate-fade-in animate-delay-200">
             <div className="bg-white p-4 rounded-2xl shadow-lg">
-              <img src="/lovable-uploads/502691b6-d37c-4d09-bd4a-003a25ca5255.png" alt="The Menopause Transition Timeline - The PeriProf Way" className="w-full h-auto rounded-xl" />
+              <img src="/lovable-uploads/0265c262-c0b5-43a0-a036-011b1aad0dd1.png" alt="The Menopause Transition Timeline - The PeriProf Way" className="w-full h-auto rounded-xl" />
             </div>
           </div>
         </div>
