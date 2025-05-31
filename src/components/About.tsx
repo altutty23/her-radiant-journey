@@ -75,7 +75,7 @@ const About = () => {
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li>• Member of The Menopause Society</li>
                   <li>• Member of the International Menopause Society</li>
-                  <li>• Member of the National Menopause Foundation</li>
+                  <li>• Founder of the Women's Health 365 Collective</li>
                   <li>• 30+ years in the healthcare industry</li>
                 </ul>
               </CardContent>
