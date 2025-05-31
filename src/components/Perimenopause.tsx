@@ -39,12 +39,8 @@ const Perimenopause = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-2xl shadow-sm opacity-0 animate-fade-in animate-delay-100">
             <h4 className="text-xl font-bold mb-4 text-gray-800">What's Really Happening?</h4>
-            <p className="text-gray-700 mb-4">
-              At menopause, your ovaries have pretty much stopped producing estradiol, a type of estrogen, and progesterone. The gist for now, in a polite way, is that your egg basket is getting empty, and Cadbury has moved on.
-            </p>
-            <p className="text-gray-700">
-              The average age of menopause is 52 in the US. Menopause most commonly happens between the age of 45 - 58. By age 55, 90% of women will be menopausal.
-            </p>
+            <p className="text-gray-700 mb-4">At menopause, your ovaries have stopped "ovary-ing" which means they no longer ovulate or produce our reproductive hormones like estradiol, a type of estrogen, and progesterone. This also means no more periods or pregnancy. Perimenopause is the time when our ovaries start to retire. </p>
+            <p className="text-gray-700">The average age of menopause is 52 in the US. Menopause most commonly happens between the age of 45 and 58. By age 55, 90% of women will be menopausal.</p>
           </div>
 
           <div className="bg-white p-8 rounded-2xl shadow-sm opacity-0 animate-fade-in animate-delay-200">
