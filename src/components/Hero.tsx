@@ -13,7 +13,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               Embrace Your <span className="heading-gradient text-[ffoo80] text-[#e60073]">Perimenopause</span> Journey With Confidence
             </h1>
-            <p className="text-lg text-gray-700 max-w-lg">Perimenopause doesn't have to surprise you! I provide expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life. I am here to help guide you.</p>
+            <p className="text-lg text-gray-700 max-w-lg">Perimenopause doesn't have to constantly surprise you! I provide expert guidance to help you navigate hormonal changes, reclaim your well-being, and thrive in this new chapter of life. I'm here to help steer you through the twists and turns of perimenopause.</p>
             <div className="flex flex-wrap gap-4">
               <a href="#get-started">
                 <Button className="btn-primary">
