@@ -77,7 +77,7 @@ const GetStarted = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
-                  Direct Q&A access
+                  Ask Away Wednesday for direct Q&A access
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
