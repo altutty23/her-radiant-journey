@@ -87,7 +87,7 @@ const Perimenopause = () => {
 
         {/* FAQs Preview */}
         <div className="bg-white p-8 rounded-2xl mb-12 opacity-0 animate-fade-in animate-delay-400">
-          <h4 className="text-xl font-bold mb-6 text-gray-800">Frequently Asked Questions</h4>
+          <h4 className="text-xl font-bold mb-6 text-gray-800">Who goes through perimenopause?</h4>
           <div className="space-y-4">
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Am I going crazy?</h5>
