@@ -89,11 +89,11 @@ const Perimenopause = () => {
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Who gets perimenopause?</h5>
-              <p className="text-gray-700">Anyone born with ovaries and has gone through puberty.</p>
+              <p className="text-gray-700">Anyone born with ovaries and has gone through puberty will eventually reach menopause. Perimenopause is the path to get there; however, not everyone gets perimenopause symptoms.</p>
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Can I skip menopause?</h5>
-              <p className="text-gray-700">Nope. Everyone born with ovaries will have to go through it at some point. But don't worry, it's not all bad. This is a time of personal growth as well.</p>
+              <p className="text-gray-700">Nope. Everyone born with ovaries will reach menopause at some point if they live long enough. But don't worry, its not all bad. This is also a time of personal growth and discovery.</p>
             </div>
           </div>
         </div>
