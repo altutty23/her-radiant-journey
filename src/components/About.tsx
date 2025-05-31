@@ -71,7 +71,7 @@ const About = () => {
             
             <Card className="border-2 border-[#e60073] bg-white shadow-lg rounded-2xl">
               <CardContent className="pt-6">
-                <h4 className="font-bold text-[#e60073] mb-3">Professional Memberships</h4>
+                <h4 className="font-bold text-[#e60073] mb-3">Professional Affiliations</h4>
                 <ul className="space-y-2 text-sm text-gray-700">
                   <li>• Member of The Menopause Society (formerly NAMS)</li>
                   <li>• Member of the International Menopause Society (IMS)</li>
