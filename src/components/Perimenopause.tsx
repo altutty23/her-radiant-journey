@@ -95,7 +95,7 @@ const Perimenopause = () => {
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Who gets perimenopause?</h5>
-              <p className="text-gray-700">Anyone born with ovaries.</p>
+              <p className="text-gray-700">Anyone born with ovaries and has gone through puberty.</p>
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Can I skip it?</h5>
