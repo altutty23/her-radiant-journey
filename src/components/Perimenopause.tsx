@@ -98,7 +98,7 @@ const Perimenopause = () => {
               <p className="text-gray-700">Anyone born with ovaries and has gone through puberty.</p>
             </div>
             <div>
-              <h5 className="font-semibold text-gray-800 mb-2">Can I skip it?</h5>
+              <h5 className="font-semibold text-gray-800 mb-2">Can I skip menopause?</h5>
               <p className="text-gray-700">Nope. Everyone born with ovaries will have to go through it at some point. But don't worry, it's not all bad. This is a time of personal growth as well.</p>
             </div>
           </div>
