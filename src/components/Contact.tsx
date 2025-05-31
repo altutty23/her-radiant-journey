@@ -1,4 +1,4 @@
-import { Mail, Globe, Linkedin, Butterfly } from "lucide-react";
+import { Mail, Globe, Linkedin, Bird } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -135,7 +135,7 @@ const Contact = () => {
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a href="https://bsky.app/profile/periprofessional.bsky.social" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
-                    <Butterfly className="w-6 h-6" />
+                    <Bird className="w-6 h-6" />
                   </a>
                 </div>
               </div>
