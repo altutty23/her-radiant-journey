@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { useToast } from "@/hooks/use-toast";
+
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -68,7 +69,8 @@ const Contact = () => {
       [name]: value
     }));
   };
-  return <section id="contact" className="bg-white py-8 md:py-12">
+  return (
+    <section id="contact" className="bg-white py-8 md:py-12">
       <div className="section-container">
         <div className="flex flex-col items-center text-center mb-16 opacity-0 animate-fade-in">
           <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-peri-pink mb-4">
@@ -90,7 +92,7 @@ const Contact = () => {
                     <Globe className="h-6 w-6 text-[#e60073]" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800">Website</h4>
+                    <h4 className="font-semibold text-gray-800">Newsletter Archive</h4>
                     <a href="https://theperiprofessional.substack.com/" target="_blank" rel="noopener noreferrer" className="text-[#e60073] hover:underline">
                       theperiprofessional.substack.com
                     </a>
@@ -170,6 +172,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Contact;

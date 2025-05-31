@@ -16,7 +16,8 @@ const Footer = () => {
     });
   };
 
-  return <footer className="bg-gray-800 text-white py-12">
+  return (
+    <footer className="bg-gray-800 text-white py-12">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <div className="text-left">
@@ -26,6 +27,7 @@ const Footer = () => {
               <li><button onClick={() => scrollToSection('perimenopause')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Perimenopause, huh?</button></li>
               <li><button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">About</button></li>
               <li><button onClick={() => scrollToSection('get-started')} className="text-gray-300 hover:text-peri-pink transition-colors text-left">Get Started</button></li>
+              <li><a href="/blog" className="text-gray-300 hover:text-peri-pink transition-colors text-left">Blog</a></li>
             </ul>
           </div>
           
@@ -44,6 +46,8 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} The Periprofessional, LLC. All rights reserved.</p>
         </div>
       </div>
-    </footer>;
+    </footer>
+  );
 };
+
 export default Footer;
