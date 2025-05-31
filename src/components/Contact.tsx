@@ -135,14 +135,12 @@ const Contact = () => {
                     <Linkedin className="w-6 h-6" />
                   </a>
                   <a href="https://bsky.app/profile/periprofessional.bsky.social" target="_blank" rel="noopener noreferrer" className="bg-white p-2 rounded-full text-[#e60073] hover:bg-peri-pink transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6">
-                      <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z"/>
-                      <path d="M8 10c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"/>
-                      <path d="M14 10c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"/>
-                      <path d="M7 14s1 2 5 2 5-2 5-2"/>
-                      <path d="M6 8c1-1 3-1 4 0"/>
-                      <path d="M18 8c-1-1-3-1-4 0"/>
-                    </svg>
+                    <img 
+                      src="/lovable-uploads/6b7e47da-d8fd-42e9-a3e8-303664b1058d.png" 
+                      alt="Bluesky" 
+                      className="w-6 h-6" 
+                      style={{ filter: 'hue-rotate(300deg) saturate(1.5) brightness(0.8)' }}
+                    />
                   </a>
                 </div>
               </div>
