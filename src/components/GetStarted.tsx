@@ -63,9 +63,7 @@ const GetStarted = () => {
                 <Mail className="h-6 w-6 text-white" />
               </div>
               <CardTitle className="text-xl font-bold text-gray-800">Paid Subscription</CardTitle>
-              <CardDescription className="text-gray-600">
-                Expert advice delivered to your inbox monthly
-              </CardDescription>
+              <CardDescription className="text-gray-600">Upscaled expert advice delivered to your inbox monthly</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
