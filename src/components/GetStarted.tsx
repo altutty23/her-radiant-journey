@@ -48,7 +48,7 @@ const GetStarted = () => {
                 <p className="text-2xl font-bold text-[#e60073] mb-2">Free</p>
                 <p className="text-sm text-gray-600">Always free access</p>
               </div>
-              <a href="https://theperiprofessional.substack.com" target="_blank" rel="noopener noreferrer" className="mt-auto">
+              <a href="https://theperiprofessional.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="mt-auto">
                 <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
                   Subscribe Free
                 </Button>
@@ -88,7 +88,7 @@ const GetStarted = () => {
                 <p className="text-2xl font-bold text-[#e60073] mb-2">$7/month</p>
                 <p className="text-sm text-gray-600">or $75 annually</p>
               </div>
-              <a href="https://theperiprofessional.substack.com/p/paid-services" target="_blank" rel="noopener noreferrer" className="mt-auto">
+              <a href="https://theperiprofessional.substack.com/subscribe" target="_blank" rel="noopener noreferrer" className="mt-auto">
                 <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
                   Subscribe Now
                 </Button>
