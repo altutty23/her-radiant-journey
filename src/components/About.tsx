@@ -111,10 +111,10 @@ const About = () => {
               <div className="text-left">
                 <Quote className="h-12 w-12 text-[#e60073] mb-6 transform scale-x-[-1]" fill="#e60073" />
                 <blockquote className="text-gray-700 mb-6 leading-relaxed italic">
-                  "Shelby provides a wealth of information about mid-life, and she does it with panache!"
+                  "You should win an award for the most creative yet relatable way to share information on perimenopause! Your newsletter is truly fun to read, and I always look forward to the crucial information that you share. The amount of knowledge you have is fantastic!"
                 </blockquote>
                 <div className="text-[#e60073]">
-                  — Amanda L.
+                  — Susan C.
                 </div>
               </div>
             </Card>
