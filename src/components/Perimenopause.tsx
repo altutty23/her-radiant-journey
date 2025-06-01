@@ -93,7 +93,7 @@ const Perimenopause = () => {
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Can I skip menopause?</h5>
-              <p className="text-gray-700">Nope. Everyone born with ovaries will reach menopause at some point if they live long enough. But don't worry, its not all bad. This is also a time of personal growth and discovery.</p>
+              <p className="text-gray-700">Nope. Everyone born with ovaries will reach menopause at some point if they live long enough. But don't worry, it's not all bad. This is also a time of personal growth and discovery.</p>
             </div>
           </div>
         </div>
