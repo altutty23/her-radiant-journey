@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ArrowRight, Calendar, Mail, Gift } from "lucide-react";
+import { ArrowRight, Calendar, Mail, Gift, Building2 } from "lucide-react";
 const GetStarted = () => {
   return <section id="get-started" className="bg-gradient-to-br from-peri-lightpink to-white py-16 md:py-0">
       <div className="section-container">
@@ -15,7 +15,7 @@ const GetStarted = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
           {/* Free Subscription */}
           <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-100 flex flex-col">
             <CardHeader className="text-center pb-4">
@@ -129,6 +129,44 @@ const GetStarted = () => {
               <a href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional" target="_blank" rel="noopener noreferrer" className="mt-auto">
                 <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
                   Schedule Now
+                </Button>
+              </a>
+            </CardContent>
+          </Card>
+
+          {/* Corporate Consulting */}
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-300 flex flex-col">
+            <CardHeader className="text-center pb-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
+                <Building2 className="h-6 w-6 text-white" />
+              </div>
+              <CardTitle className="text-xl font-bold text-gray-800">Corporate Consulting</CardTitle>
+              <CardDescription className="text-gray-600">
+                Menopause strategy for your organization
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="flex flex-col flex-grow">
+              <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Corporate healthcare business professional
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Customized approach following best practices
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Employee training on menopause experience
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Leadership support coaching
+                </li>
+              </ul>
+              <a href="https://theperiprofessional.substack.com/p/paid-services" target="_blank" rel="noopener noreferrer" className="mt-auto">
+                <Button className="w-full bg-[#e60073] hover:bg-[#d1005f] text-white rounded-full">
+                  Learn More
                 </Button>
               </a>
             </CardContent>
