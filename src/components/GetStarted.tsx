@@ -147,20 +147,20 @@ const GetStarted = () => {
             </CardHeader>
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
-                <li className="flex items-center">Get your business "menopause-ready."
-                <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
-                  Corporate healthcare business professional
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
+                  Get your business "menopause-ready"
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Customized approach following best practices
                 </li>
-                <li className="flex items-center">Employee and management training
-                <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
-                  Employee training on menopause experience
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
+                  Employee and management training
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Leadership support coaching
                 </li>
               </ul>
