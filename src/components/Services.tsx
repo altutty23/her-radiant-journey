@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, BookOpen, Users, Calendar } from "lucide-react";
+import { Heart, BookOpen, Users, Calendar, Briefcase } from "lucide-react";
 
 const Services = () => {
   return (
@@ -107,6 +107,41 @@ const Services = () => {
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
                   Peer support network
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
+
+          <Card className="border-none shadow-lg hover:shadow-xl transition-all duration-300 opacity-0 animate-fade-in animate-delay-400">
+            <CardHeader className="text-center pb-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-[#e60073] mb-4 mx-auto">
+                <Briefcase className="h-6 w-6 text-white" />
+              </div>
+              <CardTitle className="text-xl font-bold text-gray-800">Corporate Consulting Services</CardTitle>
+              <CardDescription className="text-gray-600">
+                Make your organization menopause-ready
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-gray-700 mb-4">
+                Position your organization as menopause-ready by collaborating to create a comprehensive menopause strategy, including employee training and leadership support.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600 mb-6">
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Corporate healthcare business professional
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Customized best-practice approach
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Comprehensive menopause training
+                </li>
+                <li className="flex items-center">
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  Adaptable long-term solutions
                 </li>
               </ul>
             </CardContent>
