@@ -14,8 +14,8 @@ const Index = () => {
       <main>
         <Hero />
         <Perimenopause />
-        <About />
         <GetStarted />
+        <About />
         <Contact />
       </main>
       <Footer />
