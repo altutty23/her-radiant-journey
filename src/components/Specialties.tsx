@@ -19,7 +19,7 @@ const specialties = [
   },
   {
     icon: Sparkles,
-    title: "Sexual Health & Vaginal/Bladder Care",
+    title: "Sexual Health &\u00a0Vaginal/Bladder Care\n",
     description: "Real talk about sex, STIs, vaginal and bladder health, and maintaining intimacy through perimenopause and beyond."
   },
   {
