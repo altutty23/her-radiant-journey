@@ -60,6 +60,10 @@ const Header = () => {
     navigate('/blog');
     setMobileMenuOpen(false);
   };
+  const handleSpecialtiesClick = () => {
+    navigate('/specialties');
+    setMobileMenuOpen(false);
+  };
   return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/95 backdrop-blur-sm shadow-sm py-3' : 'bg-transparent py-5'}`}>
       <div className="container max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -79,7 +83,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('perimenopause')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               Perimenopause, huh?
             </button>
-            <button onClick={() => scrollToSection('specialties')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
+            <button onClick={handleSpecialtiesClick} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               Specialties
             </button>
             <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
@@ -113,7 +117,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('perimenopause')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               Perimenopause, huh?
             </button>
-            <button onClick={() => scrollToSection('specialties')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
+            <button onClick={handleSpecialtiesClick} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
               Specialties
             </button>
             <button onClick={() => scrollToSection('about')} className="block text-gray-700 hover:text-[#e60073] font-medium py-2 w-full text-left">
