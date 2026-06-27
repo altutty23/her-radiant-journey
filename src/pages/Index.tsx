@@ -2,7 +2,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Perimenopause from "@/components/Perimenopause";
-import Specialties from "@/components/Specialties";
 import GetStarted from "@/components/GetStarted";
 import About from "@/components/About";
 import Contact from "@/components/Contact";
