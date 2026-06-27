@@ -10,27 +10,27 @@ const specialties = [
   {
     icon: Brain,
     title: "Mental & Emotional Health",
-    description: "Navigating anxiety, mood shifts, brain fog, and using midlife as a catalyst for reinvention and self-discovery."
+    description: "Understanding anxiety, mood shifts, brain fog caused by perimenopause. Using midlife as a catalyst for reinvention and self-discovery."
   },
   {
     icon: Activity,
     title: "Body Changes & Metabolism",
-    description: "Weight distribution changes, skin and acne shifts, and practical strategies for a changing body at midlife."
+    description: "Weight distribution changes, hot flashes, skin and acne shifts, and practical strategies for a changing body at midlife."
   },
   {
     icon: Sparkles,
-    title: "Sexual Health & Intimacy",
-    description: "Real talk about sex, STIs, vaginal health, and maintaining intimacy through perimenopause and beyond."
+    title: "Sexual Health & Vaginal/Bladder Care",
+    description: "Real talk about sex, STIs, vaginal and bladder health, and maintaining intimacy through perimenopause and beyond."
   },
   {
     icon: Stethoscope,
     title: "Navigating Care",
-    description: "Finding the right doctor, understanding menopause guidelines, and becoming your own best health advocate."
+    description: "Finding the right doctor, understanding menopause guidelines, and navigating our complex healthcare environment, so you can become your own best health advocate."
   },
   {
     icon: BookOpen,
     title: "Peri-Pro 101 Education",
-    description: "Science-backed fundamentals made simple—translating complex health information into everyday language."
+    description: "Science-backed fundamentals made simple, translating complex health information into everyday language."
   },
   {
     icon: Users,
@@ -40,7 +40,7 @@ const specialties = [
   {
     icon: MessageCircle,
     title: "1:1 Consultations",
-    description: "Personalized virtual support to answer your questions, review symptoms, and help you create a plan that fits your life."
+    description: "Personalized virtual support to answer your questions, review symptoms, and help you create a plan that fits your life. Meet once or often."
   }
 ];
 
