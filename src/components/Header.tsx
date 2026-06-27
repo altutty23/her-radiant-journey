@@ -79,6 +79,9 @@ const Header = () => {
             <button onClick={() => scrollToSection('perimenopause')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               Perimenopause, huh?
             </button>
+            <button onClick={() => scrollToSection('specialties')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
+              Specialties
+            </button>
             <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-[#e60073] font-medium transition-colors">
               About
             </button>
