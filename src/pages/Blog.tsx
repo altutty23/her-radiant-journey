@@ -92,6 +92,10 @@ const Blog = () => {
     window.open('https://theperiprofessional.substack.com/archive?sort=new', '_blank', 'noopener,noreferrer');
   };
 
+  const handleSubscribeClick = () => {
+    window.open('https://theperiprofessional.substack.com/subscribe', '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -134,12 +138,19 @@ const Blog = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <Button 
+          <div className="text-center mt-12 space-y-4 md:space-y-0 md:space-x-4 md:flex md:justify-center">
+            <Button
               onClick={handleMorePostsClick}
               className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f] px-12 py-4 text-lg"
             >
               More Posts
+            </Button>
+            <Button
+              onClick={handleSubscribeClick}
+              variant="outline"
+              className="rounded-full border-[#e60073] text-[#e60073] hover:bg-[#e60073] hover:text-white px-12 py-4 text-lg"
+            >
+              Subscribe
             </Button>
           </div>
         </section>
