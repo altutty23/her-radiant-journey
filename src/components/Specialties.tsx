@@ -10,7 +10,7 @@ const specialties = [
   {
     icon: Brain,
     title: "Mental & Emotional Health",
-    description: "Understanding anxiety, mood shifts, brain fog caused by perimenopause. Using midlife as a catalyst for reinvention and self-discovery."
+    description: "Anxiety, mood shifts, and brain fog can be caused by perimenopause. Midlife is a catalyst for reinvention and self-discovery."
   },
   {
     icon: Activity,
@@ -19,8 +19,8 @@ const specialties = [
   },
   {
     icon: Sparkles,
-    title: "Sexual Health &\u00a0Vaginal/Bladder Care\n",
-    description: "Real talk about sex, STIs, vaginal and bladder health, and maintaining intimacy through perimenopause and beyond."
+    title: "Sexual Health &\u00a0Vaginal/Bladder\n",
+    description: "Real talk about vaginal and bladder health, sex, STDs, and maintaining intimacy through perimenopause and beyond."
   },
   {
     icon: Stethoscope,
