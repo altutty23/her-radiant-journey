@@ -24,7 +24,7 @@ const Specialties = () => {
               <span className="text-[#e60073]">&amp; Topic Areas</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From hormones to hot flashes, I cover the topics that matter most during the menopause transition.
+              From hormones to hot flashes, I cover the topics that matter most during the menopause transition. I'll help you create a plan to address concerns and alleviate symptoms through lifestyle support.
             </p>
           </div>
 
