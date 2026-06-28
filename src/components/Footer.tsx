@@ -32,7 +32,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-peri-pink">The Periprofessional, LLC</h3>
             <p className="text-gray-300 mb-4">
               Empowering women through their menopause journey with<br />
-              expert guidance, personalized support, and compassion<br />
+              expert guidance, personalized support, and compassion.<br />
               <br />
               Navigate this transformative phase of life with confidence<br />
               and reclaim your well-being.
