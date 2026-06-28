@@ -33,6 +33,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Empowering women through their menopause journey with<br />
               expert guidance, personalized support, and compassionate care.<br />
+              <br />
               Navigate this transformative phase of life with confidence<br />
               and reclaim your well-being.
             </p>
