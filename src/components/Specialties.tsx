@@ -10,7 +10,7 @@ const specialties = [
   {
     icon: Brain,
     title: "Mental & Emotional Health",
-    description: "Anxiety, mood shifts, and brain fog can be caused by perimenopause. Midlife is a catalyst for reinvention and self-discovery."
+    description: "Anxiety, mood shifts, and brain fog can be caused by perimenopause. Midlife is a catalyst for reinvention and self-discovery with the right tools."
   },
   {
     icon: Activity,
