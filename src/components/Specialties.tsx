@@ -55,7 +55,6 @@ const Specialties = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Specialties & Topic Areas</h2>
           <div className="w-24 h-1 bg-[#e60073] rounded mb-6"></div>
           <p className="max-w-2xl mx-auto text-gray-700 text-lg">
-            From hormones to hot flashes, I cover the topics that matter most during the menopause transition.
           </p>
         </div>
 
