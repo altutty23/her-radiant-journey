@@ -1,5 +1,5 @@
 const Perimenopause = () => {
-  return <section id="perimenopause" className="bg-gray-50 py-8 md:py-12">
+  return <section id="perimenopause" className="bg-gray-50 pt-8 md:pt-12 pb-4 md:pb-6">
       <div className="section-container">
         <div className="text-center mb-16 opacity-0 animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Perimenopause, huh?</h2>
@@ -79,7 +79,7 @@ const Perimenopause = () => {
         </div>
 
         {/* FAQs Preview */}
-        <div className="bg-white p-8 rounded-2xl mb-12 opacity-0 animate-fade-in animate-delay-400">
+        <div className="bg-white p-8 rounded-2xl mb-6 opacity-0 animate-fade-in animate-delay-400">
           <h4 className="text-xl font-bold mb-6 text-gray-800">Perimenopause Frequently Asked Questions:</h4>
           <div className="space-y-4">
             <div>
