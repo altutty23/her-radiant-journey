@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/button';
 const Perimenopause = () => {
   return <section id="perimenopause" className="bg-gray-50 py-8 md:py-12">
       <div className="section-container">
@@ -98,15 +97,6 @@ const Perimenopause = () => {
           </div>
         </div>
 
-        {/* Call to Action */}
-        <div className="text-center opacity-0 animate-fade-in animate-delay-500">
-          <a href="https://theperiprofessional.substack.com/p/perimenopause-huh" target="_blank" rel="noopener noreferrer">
-            <Button className="bg-[#e60073] hover:bg-[#d1005f] text-white font-medium px-8 py-3 rounded-full text-lg">
-              Learn More
-            </Button>
-          </a>
-          <p className="mt-4 text-gray-600">Get the complete guide with all FAQs and detailed information</p>
-        </div>
       </div>
     </section>;
 };
