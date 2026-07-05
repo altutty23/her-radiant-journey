@@ -94,6 +94,18 @@ const Specialties = () => {
               <p className="mt-10 text-xl font-medium text-[#e60073]">
                 I can help with the above and more!
               </p>
+              <div className="mt-10 flex justify-center">
+                <a
+                  href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional/home"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="text-white rounded-full bg-[#e60073] hover:bg-[#d1005f] px-8 py-6 text-lg">
+                    <Calendar className="mr-2 h-5 w-5" />
+                    Book Your Appointment!
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
         </section>
