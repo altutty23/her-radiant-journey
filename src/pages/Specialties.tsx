@@ -110,7 +110,7 @@ const Specialties = () => {
           </div>
         </section>
 
-        <section className="section-container mt-8 mb-8">
+        <section className="section-container mt-4 mb-4">
           <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-8 md:p-12">
             <p className="text-sm text-gray-600 leading-relaxed">
               <span className="font-semibold text-gray-800">Disclaimer:</span>{" "}
