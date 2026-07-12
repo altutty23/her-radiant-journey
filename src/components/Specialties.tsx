@@ -4,7 +4,7 @@ import { Sparkles, Heart, Brain, Activity, Stethoscope, BookOpen, Users, Message
 const specialties = [
   {
     icon: Heart,
-    title: "Perimenopause Biology",
+    title: "Peri/Menopause Biology",
     description: "Understanding hormone changes, symptom patterns, and what's really happening to your body during the menopause transition."
   },
   {

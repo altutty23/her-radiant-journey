@@ -20,8 +20,8 @@ const Specialties = () => {
         <section className="section-container">
           <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              <span className="text-black">Specialties </span>
-              <span className="text-[#e60073]">&amp; Topic Areas</span>
+              <span className="text-black">Perimenopause and Menopause </span>
+              <span className="text-[#e60073]">Specialties and topic areas</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               From hormones to hot flashes, I cover the topics that matter most during the menopause transition. I'll help you create a plan to address concerns and alleviate symptoms through lifestyle support.
