@@ -109,6 +109,15 @@ const Specialties = () => {
             </div>
           </div>
         </section>
+
+        <section className="section-container mt-8 mb-8">
+          <div className="max-w-4xl mx-auto bg-white rounded-2xl shadow-md p-8 md:p-12">
+            <p className="text-sm text-gray-600 leading-relaxed">
+              <span className="font-semibold text-gray-800">Disclaimer:</span>{" "}
+              This information is not intended to diagnose, treat, cure, or prevent any medical conditions, nor should it replace licensed medical expertise or treatment. The information provided is for informational and educational purposes only and is not a substitute for medical care. Clients are responsible for their own actions, and the information provided is not intended to create a healthcare provider/patient relationship. If you have a medical emergency, please call 911 in the U.S. or your local emergency service provider. If you are experiencing suicidal thoughts or a crisis, please reach out to the Suicide and Crisis Lifeline (U.S.) by calling or texting 988 or reaching out to your medical provider.
+            </p>
+          </div>
+        </section>
       </main>
       <Footer />
     </div>
