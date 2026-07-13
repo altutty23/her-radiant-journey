@@ -46,7 +46,7 @@ const specialties = [
 
 const Specialties = () => {
   return (
-    <section id="specialties" className="bg-white py-4 md:py-6">
+    <section id="specialties" className="bg-white py-3 md:py-4">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {specialties.map((specialty, index) => {
