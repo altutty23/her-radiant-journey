@@ -48,8 +48,7 @@ const Specialties = () => {
   return (
     <section id="specialties" className="bg-white py-4 md:py-6">
       <div className="section-container">
-        <div className="flex flex-col items-center text-center mb-8 opacity-0 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold">Specialties & Topic Areas</h2>
+        <div className=\"flex flex-col items-center text-center mb-8 opacity-0 animate-fade-in\">
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
