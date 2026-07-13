@@ -15,7 +15,7 @@ const specialties = [
   {
     icon: Activity,
     title: "Body Changes & Metabolism",
-    description: "Weight distribution changes, hot flashes, skin and acne shifts, and practical strategies for a changing body at midlife."
+    description: "Weight distribution changes, hot flashes, skin and acne shifts, and practical lifestyle strategies for a changing body at midlife."
   },
   {
     icon: Sparkles,
