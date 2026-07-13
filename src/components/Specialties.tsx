@@ -8,9 +8,9 @@ const specialties = [
     description: "Understanding hormone changes, symptom patterns, and what's really happening to your body during the menopause transition."
   },
   {
-    icon: Brain,
-    title: "Mental & Emotional Health",
-    description: "Anxiety, mood shifts, and brain fog can be caused by perimenopause. Midlife is a catalyst for reinvention and self-discovery with the right tools."
+    icon: BookOpen,
+    title: "Peri-Pro 101 Education",
+    description: "Science-backed fundamentals made simple, translating complex health information into everyday language."
   },
   {
     icon: Activity,
@@ -28,9 +28,9 @@ const specialties = [
     description: "Finding the right doctor, understanding menopause guidelines, and navigating our complex healthcare environment, so you can become your own best health advocate."
   },
   {
-    icon: BookOpen,
-    title: "Peri-Pro 101 Education",
-    description: "Science-backed fundamentals made simple, translating complex health information into everyday language."
+    icon: Brain,
+    title: "Mental & Emotional Health",
+    description: "Anxiety, mood shifts, and brain fog can be caused by perimenopause. Midlife is a catalyst for reinvention and self-discovery with the right tools."
   },
   {
     icon: Users,
