@@ -68,6 +68,9 @@
   
   .card {
     @apply bg-white shadow-sm hover:shadow-md transition-shadow rounded-2xl p-6;
+  
+  .font-display {
+    font-family: 'Outfit', sans-serif;
   }
 }
 
