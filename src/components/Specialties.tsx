@@ -15,12 +15,12 @@ const specialties = [
   {
     icon: Activity,
     title: "Body Changes & Metabolism",
-    description: "Weight distribution changes, hot flashes, skin and acne shifts, and practical lifestyle strategies for a changing body at midlife."
+    description: "Reviewing weight distribution changes, hot flashes, skin and acne shifts, and providing lifestyle strategies for a changing body at midlife."
   },
   {
     icon: Sparkles,
     title: "Sexual Health &\u00a0Vaginal/Bladder\n",
-    description: "Real talk about vaginal and bladder health, sex, STDs, and maintaining intimacy through perimenopause and beyond."
+    description: "Real talk about vaginal and bladder health, STDs, and maintaining intimacy through perimenopause and beyond."
   },
   {
     icon: Stethoscope,
