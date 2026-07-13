@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Sparkles, Heart, Brain, Activity, Stethoscope, BookOpen, Users, MessageCircle } from "lucide-react";
+import { Heart, Brain, Activity, Stethoscope, BookOpen, Users, MessageCircle } from "lucide-react";
 
 const specialties = [
   {
