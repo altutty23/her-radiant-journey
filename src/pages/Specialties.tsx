@@ -16,9 +16,9 @@ const Specialties = () => {
   return (
     <div className="min-h-screen">
       <Header />
-      <main className="pt-20">
+      <main className="pt-16">
         <section className="section-container">
-          <div className="text-center mb-12">
+          <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="text-black">Perimenopause and Menopause </span>
               <span className="text-[#e60073]">Specialties and Topic Areas</span>
@@ -30,7 +30,7 @@ const Specialties = () => {
 
           <SpecialtiesSection />
 
-          <div className="mt-16 flex justify-center">
+          <div className="mt-12 flex justify-center">
             <a
               href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional/home"
               target="_blank"
@@ -43,12 +43,12 @@ const Specialties = () => {
             </a>
           </div>
 
-          <div className="mt-20 max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-10">
+          <div className="mt-16 max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-8">
               <span className="text-black">Does this sound </span>
               <span className="text-[#e60073]">familiar?</span>
             </h2>
-            <div className="bg-white rounded-2xl shadow-md p-8 md:p-12">
+            <div className="bg-white rounded-2xl shadow-md p-6 md:p-10">
               <ul className="text-left space-y-4 text-lg text-gray-700">
                 <li className="flex items-start gap-3">
                   <span className="mt-2 w-2 h-2 rounded-full bg-[#e60073] shrink-0" />
