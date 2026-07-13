@@ -23,9 +23,12 @@ const Specialties = () => {
               <span className="text-black">Perimenopause and Menopause </span>
               <span className="text-[#e60073]">Specialties and Topic Areas</span>
             </h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From hormones to hot flashes, I cover the topics that matter most during the menopause transition. I'll help you create a plan to address concerns and alleviate symptoms through lifestyle support.
-            </p>
+            <div className="text-xl text-gray-600 max-w-3xl mx-auto space-y-4">
+              <p className="italic">"I need a knowledgeable friend who knows what I'm going through!" - You</p>
+              <p>
+                From hormones to hot flashes, I cover the topics that matter most during the menopause transition. I'll help you create a plan to address concerns and alleviate symptoms through lifestyle support.
+              </p>
+            </div>
           </div>
 
           <SpecialtiesSection />
