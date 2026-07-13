@@ -40,8 +40,14 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="pt-8 mt-8 border-t border-gray-700 text-center text-gray-400 text-sm">
-          <p>© {new Date().getFullYear()} The Periprofessional, LLC. All rights reserved.</p>
+        <div className="mt-8 border-t border-gray-700 pt-8">
+          <p className="text-sm text-gray-400 leading-relaxed mb-6">
+            <span className="font-semibold text-gray-300">Disclaimer:</span>{" "}
+            This information is not intended to diagnose, treat, cure, or prevent any medical conditions, nor should it replace licensed medical expertise or treatment. The information provided is for informational and educational purposes only and is not a substitute for medical care. Clients are responsible for their own actions, and the information provided is not intended to create a healthcare provider/patient relationship. If you have a medical emergency, please call 911 in the U.S. or your local emergency service provider. If you are experiencing suicidal thoughts or a crisis, please reach out to the Suicide and Crisis Lifeline (U.S.) by calling or texting 988 or reaching out to your medical provider.
+          </p>
+          <div className="text-center text-gray-400 text-sm">
+            <p>© {new Date().getFullYear()} The Periprofessional, LLC. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>;
