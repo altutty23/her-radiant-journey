@@ -40,7 +40,7 @@ const specialties = [
   {
     icon: MessageCircle,
     title: "1:1 Consultations",
-    description: "Personalized virtual support to answer your questions, review symptoms, and help you create a plan that fits your life. Meet once or often."
+    description: "Personalized virtual support via video, audio, text, or email to answer your perimenopause and menopause questions and help you create a plan that fits your life. Meet once or often."
   }
 ];
 
