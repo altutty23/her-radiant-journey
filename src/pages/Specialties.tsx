@@ -28,9 +28,6 @@ const Specialties = () => {
               <p>
                 From hormones to hot flashes, I cover the topics that matter most during the menopause transition. I'll help you create a plan to address concerns and alleviate symptoms through lifestyle support.
               </p>
-              <p className="font-display font-medium text-[#e60073]">
-                Learning about perimenopause shouldn't be your full-time job. Spend time with me and save time for yourself!
-              </p>
             </div>
           </div>
 
