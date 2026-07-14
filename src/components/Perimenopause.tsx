@@ -14,7 +14,7 @@ const Perimenopause = () => {
             <p className="text-gray-700">
               If you're wondering what exactly perimenopause is, you're in the right place. Perimenopause is the time during which your body begins the menopause transition.
             </p>
-            <p className="text-gray-700">On average, it starts around 45 (think Kate Hudson, not Golden Girls) and can last for up to 14 years before you enter menopause—which occurs when you've gone 365 days without a period (spotting counts). So basically, menopause changes don't start at menopause; the "menopause transition" known as perimenopause actually begins in the years leading up to it.</p>
+            <p className="text-gray-700">On average, it starts around 45 (think Kate Hudson, not Golden Girls) and can last for up to 14 years before you enter menopause—which occurs when you've gone 365 days without a period (spotting counts). So basically, menopause changes don't start at menopause; they begin during perimenopause , the years leading up to it.</p>
             <div className="bg-white p-6 rounded-2xl shadow-sm">
               <p className="text-gray-600 italic mb-4">You may hear yourself say:</p>
               <ul className="space-y-2 text-gray-700">
@@ -38,7 +38,7 @@ const Perimenopause = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div className="bg-white p-8 rounded-2xl shadow-sm opacity-0 animate-fade-in animate-delay-100">
             <h4 className="text-xl font-bold mb-4 text-gray-800">What's Really Happening?</h4>
-            <p className="text-gray-700 mb-4">At menopause, your ovaries have stopped "ovary-ing" which means they no longer ovulate or produce our reproductive hormones like estradiol, a type of estrogen, and progesterone. This also means no more periods or pregnancy. Perimenopause is the time when our ovaries start to retire. </p>
+            <p className="text-gray-700 mb-4">At menopause, your ovaries have stopped "ovary-ing" which means they no longer ovulate or produce our reproductive hormones like estradiol, a type of estrogen, and progesterone. This also means no more periods or pregnancy. Perimenopause is the time when our ovaries begin to retire. </p>
             <p className="text-gray-700">The average age of menopause is 52 in the US. Menopause most commonly happens between the ages of 45 and 58. By age 55, 90% of women will be menopausal.</p>
           </div>
 
@@ -88,7 +88,7 @@ const Perimenopause = () => {
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Who gets perimenopause?</h5>
-              <p className="text-gray-700">Anyone born with ovaries and has gone through puberty will eventually reach menopause. Perimenopause is the path to get there; however, not everyone gets perimenopause symptoms.</p>
+              <p className="text-gray-700">Anyone born with ovaries and has gone through puberty will eventually reach menopause. Perimenopause is the path to get there; however, not everyone gets perimenopause symptoms or goes through the perimenopause process (if they've had a surgical or medical menopause).</p>
             </div>
             <div>
               <h5 className="font-semibold text-gray-800 mb-2">Can I skip menopause?</h5>
