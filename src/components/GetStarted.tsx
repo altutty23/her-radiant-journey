@@ -123,7 +123,7 @@ const GetStarted = () => {
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
-                  No long-term commitment
+                  No long-term commitment; meet once or often
                 </li>
               </ul>
               <a href="https://clientportal.us.zandahealth.com/clientportal/theperiprofessional" target="_blank" rel="noopener noreferrer" className="mt-auto">
