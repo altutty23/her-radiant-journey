@@ -111,7 +111,7 @@ const GetStarted = () => {
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
-                  Easy to schedule appointments
+                  Easy to schedule appointments starting at $35!
                 </li>
                 <li className="flex items-center">
                   <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
