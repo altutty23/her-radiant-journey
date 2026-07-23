@@ -28,19 +28,19 @@ const GetStarted = () => {
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Weekly newsletter delivery
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Access to Substack content
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Exclusive bonus content
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   No payment required
                 </li>
               </ul>
@@ -68,19 +68,19 @@ const GetStarted = () => {
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Self-motivated learning
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Written expertise in your inbox
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Ask Away Wednesday for direct Q&A access
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Discounts on 1:1 services
                 </li>
               </ul>
@@ -110,19 +110,19 @@ const GetStarted = () => {
             <CardContent className="flex flex-col flex-grow">
               <ul className="space-y-2 text-sm text-gray-700 mb-6 flex-grow">
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Easy to schedule appointments starting at $35!
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Privacy of your health information
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   Live connection with certified educator
                 </li>
                 <li className="flex items-center">
-                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2"></span>
+                  <span className="w-2 h-2 bg-[#e60073] rounded-full mr-2 flex-shrink-0"></span>
                   No long-term commitment; meet once or often
                 </li>
               </ul>
